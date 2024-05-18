@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Status_of_Repayment_Mode__c</fullName>
+    <description>Specifies the current status of the chosen mode of repayment.</description>
+    <externalId>false</externalId>
+    <label>Current Status of Repayment Mode</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NACH</fullName>
+                <default>false</default>
+                <label>NACH</label>
+            </value>
+            <value>
+                <fullName>PDC</fullName>
+                <default>false</default>
+                <label>PDC</label>
+            </value>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

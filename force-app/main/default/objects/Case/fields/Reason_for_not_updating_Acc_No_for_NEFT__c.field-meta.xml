@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_not_updating_Acc_No_for_NEFT__c</fullName>
+    <description>Indicates the reason for not updating the Account Number for NEFT transactions.</description>
+    <externalId>false</externalId>
+    <label>Reason for not updating Acc No. for NEFT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

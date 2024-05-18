@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Case_Subcategory__c</fullName>
+    <description>Previous subcategory of a customer support case.</description>
+    <externalId>false</externalId>
+    <label>Old Case Subcategory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <label>Example</label>
+            </value>
+            <value>
+                <fullName>Request for Handing over of property papers for closed loan</fullName>
+                <default>false</default>
+                <label>Request for Handing over of property papers for closed loan</label>
+            </value>
+            <value>
+                <fullName>Revision in Due date</fullName>
+                <default>false</default>
+                <label>Revision in Due date</label>
+            </value>
+            <value>
+                <fullName>Tracking of QR Code Payment</fullName>
+                <default>false</default>
+                <label>Tracking of QR Code Payment</label>
+            </value>
+            <value>
+                <fullName>Re-KYC Document Submission</fullName>
+                <default>false</default>
+                <label>Re-KYC Document Submission</label>
+            </value>
+            <value>
+                <fullName>Re-KYC Rejection Curing</fullName>
+                <default>false</default>
+                <label>Re-KYC Rejection Curing</label>
+            </value>
+            <value>
+                <fullName>Request for Insurance Cancellation</fullName>
+                <default>false</default>
+                <label>Request for Insurance Cancellation</label>
+            </value>
+            <value>
+                <fullName>Status of Insurance Refund from COPS</fullName>
+                <default>false</default>
+                <label>Status of Insurance Refund from COPS</label>
+            </value>
+            <value>
+                <fullName>Copy of Insurance Policy</fullName>
+                <default>false</default>
+                <label>Copy of Insurance Policy</label>
+            </value>
+            <value>
+                <fullName>Auction property-EMD collection</fullName>
+                <default>false</default>
+                <label>Auction property-EMD collection</label>
+            </value>
+            <value>
+                <fullName>Issuance of receipt book</fullName>
+                <default>false</default>
+                <label>Issuance of receipt book</label>
+            </value>
+            <value>
+                <fullName>Scan Copy of Bounce Memo</fullName>
+                <default>false</default>
+                <label>Scan Copy of Bounce Memo</label>
+            </value>
+            <value>
+                <fullName>Request for Scan Copy of Documents</fullName>
+                <default>false</default>
+                <label>Request for Scan Copy of Documents</label>
+            </value>
+            <value>
+                <fullName>Scan Copy of Property Documents</fullName>
+                <default>false</default>
+                <label>Scan Copy of Property Documents</label>
+            </value>
+            <value>
+                <fullName>Scan copy of Loan Agreement</fullName>
+                <default>false</default>
+                <label>Scan copy of Loan Agreement</label>
+            </value>
+            <value>
+                <fullName>Virtual Account SMS</fullName>
+                <default>false</default>
+                <label>Virtual Account SMS</label>
+            </value>
+            <value>
+                <fullName>Refund - Loan accounts</fullName>
+                <default>false</default>
+                <label>Refund - Loan accounts</label>
+            </value>
+            <value>
+                <fullName>Refund - Deposit accounts</fullName>
+                <default>false</default>
+                <label>Refund - Deposit accounts</label>
+            </value>
+            <value>
+                <fullName>CIBIL Trigger</fullName>
+                <default>false</default>
+                <label>CIBIL Trigger</label>
+            </value>
+            <value>
+                <fullName>Modifications in Demographic details</fullName>
+                <default>false</default>
+                <label>Modifications in Demographic details</label>
+            </value>
+            <value>
+                <fullName>Release of Collateral / Liquidation of Security</fullName>
+                <default>false</default>
+                <label>Release of Collateral / Liquidation of Security</label>
+            </value>
+            <value>
+                <fullName>Temporary release of Original property documents</fullName>
+                <default>false</default>
+                <label>Temporary release of Original property documents</label>
+            </value>
+            <value>
+                <fullName>Request for deliverable</fullName>
+                <default>false</default>
+                <label>Request for deliverable</label>
+            </value>
+            <value>
+                <fullName>MODT Registration</fullName>
+                <default>false</default>
+                <label>MODT Registration</label>
+            </value>
+            <value>
+                <fullName>Request for Refund of Processing Fees</fullName>
+                <default>false</default>
+                <label>Request for Refund of Processing Fees</label>
+            </value>
+            <value>
+                <fullName>Refund of Excess Amount</fullName>
+                <default>false</default>
+                <label>Refund of Excess Amount</label>
+            </value>
+            <value>
+                <fullName>Closure of loan account</fullName>
+                <default>false</default>
+                <label>Closure of loan account</label>
+            </value>
+            <value>
+                <fullName>Status of Loan Application</fullName>
+                <default>false</default>
+                <label>Status of Loan Application</label>
+            </value>
+            <value>
+                <fullName>Collect &amp; Update Property documents from builder</fullName>
+                <default>false</default>
+                <label>Collect &amp; Update Property documents from builder</label>
+            </value>
+            <value>
+                <fullName>Request for Subsequent Disbursement</fullName>
+                <default>false</default>
+                <label>Request for Subsequent Disbursement</label>
+            </value>
+            <value>
+                <fullName>PNBHFL to provide the Sub-Category</fullName>
+                <default>false</default>
+                <label>PNBHFL to provide the Sub-Category</label>
+            </value>
+            <value>
+                <fullName>List of Documents</fullName>
+                <default>false</default>
+                <label>List of Documents</label>
+            </value>
+            <value>
+                <fullName>Increase in EMI</fullName>
+                <default>false</default>
+                <label>Increase in EMI</label>
+            </value>
+            <value>
+                <fullName>Loss/Expiry/Stale Interest Warrant-Duplicate issuance</fullName>
+                <default>false</default>
+                <label>Loss/Expiry/Stale Interest Warrant-Duplicate issuance</label>
+            </value>
+            <value>
+                <fullName>Loss FD Receipt-Duplicate issuance</fullName>
+                <default>false</default>
+                <label>Loss FD Receipt-Duplicate issuance</label>
+            </value>
+            <value>
+                <fullName>Pre-Approved Top-up Loan Offer</fullName>
+                <default>false</default>
+                <label>Pre-Approved Top-up Loan Offer</label>
+            </value>
+            <value>
+                <fullName>Adjustment of charges</fullName>
+                <default>false</default>
+                <label>Adjustment of charges</label>
+            </value>
+            <value>
+                <fullName>ROI Conversion Offered by ICC</fullName>
+                <default>false</default>
+                <label>ROI Conversion Offered by ICC</label>
+            </value>
+            <value>
+                <fullName>Swapping of Repayment Mode</fullName>
+                <default>false</default>
+                <label>Swapping of Repayment Mode</label>
+            </value>
+            <value>
+                <fullName>MODT Cancellation</fullName>
+                <default>false</default>
+                <label>MODT Cancellation</label>
+            </value>
+            <value>
+                <fullName>Submission of Continuation of Repayment mode</fullName>
+                <default>false</default>
+                <label>Submission of Continuation of Repayment mode</label>
+            </value>
+            <value>
+                <fullName>Status of cheque deposited at Branch</fullName>
+                <default>false</default>
+                <label>Status of cheque deposited at Branch</label>
+            </value>
+            <value>
+                <fullName>Representation of ECS</fullName>
+                <default>false</default>
+                <label>Representation of ECS</label>
+            </value>
+            <value>
+                <fullName>Closure of Loan ICC</fullName>
+                <default>false</default>
+                <label>Closure of Loan ICC</label>
+            </value>
+            <value>
+                <fullName>Restructured Loan</fullName>
+                <default>false</default>
+                <label>Restructured Loan</label>
+            </value>
+            <value>
+                <fullName>Co-Lending Case</fullName>
+                <default>false</default>
+                <label>Co-Lending Case</label>
+            </value>
+            <value>
+                <fullName>GECL Loan</fullName>
+                <default>false</default>
+                <label>GECL Loan</label>
+            </value>
+            <value>
+                <fullName>Delinquent Case Submitted by Operations</fullName>
+                <default>false</default>
+                <label>Delinquent Case Submitted by Operations</label>
+            </value>
+            <value>
+                <fullName>Fixed Rate Loan</fullName>
+                <default>false</default>
+                <label>Fixed Rate Loan</label>
+            </value>
+            <value>
+                <fullName>Unnati Loan</fullName>
+                <default>false</default>
+                <label>Unnati Loan</label>
+            </value>
+            <value>
+                <fullName>Delinquent Case Submitted by Collections</fullName>
+                <default>false</default>
+                <label>Delinquent Case Submitted by Collections</label>
+            </value>
+            <value>
+                <fullName>Forgot User ID</fullName>
+                <default>false</default>
+                <label>Forgot User ID</label>
+            </value>
+            <value>
+                <fullName>Online Submission of Form 15G/H</fullName>
+                <default>false</default>
+                <label>Online Submission of Form 15G/H</label>
+            </value>
+            <value>
+                <fullName>Broker Activation</fullName>
+                <default>false</default>
+                <label>Broker Activation</label>
+            </value>
+            <value>
+                <fullName>Stop payment</fullName>
+                <default>false</default>
+                <label>Stop payment</label>
+            </value>
+            <value>
+                <fullName>RTGS for disbursement</fullName>
+                <default>false</default>
+                <label>RTGS for disbursement</label>
+            </value>
+            <value>
+                <fullName>NACH Cancellation</fullName>
+                <default>false</default>
+                <label>NACH Cancellation</label>
+            </value>
+            <value>
+                <fullName>Relaxation in sanction conditions</fullName>
+                <default>false</default>
+                <label>Relaxation in sanction conditions</label>
+            </value>
+            <value>
+                <fullName>Service Recovery</fullName>
+                <default>false</default>
+                <label>Service Recovery</label>
+            </value>
+            <value>
+                <fullName>Pre-Closure Statement Issuance</fullName>
+                <default>false</default>
+                <label>Pre-Closure Statement Issuance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

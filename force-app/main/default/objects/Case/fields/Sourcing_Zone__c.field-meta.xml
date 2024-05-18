@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sourcing_Zone__c</fullName>
+    <description>The zone responsible for sourcing customers.</description>
+    <externalId>false</externalId>
+    <formula>Loan_Account__r.SourcingBranch__r.Description3__c</formula>
+    <label>Sourcing Zone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

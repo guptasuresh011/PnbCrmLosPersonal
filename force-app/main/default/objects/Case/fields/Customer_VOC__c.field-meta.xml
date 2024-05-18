@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_VOC__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer VOC</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Responsiveness’ of staff</fullName>
+                <default>false</default>
+                <label>Non-Responsiveness’ of staff</label>
+            </value>
+            <value>
+                <fullName>High Rate of Interest</fullName>
+                <default>false</default>
+                <label>High Rate of Interest</label>
+            </value>
+            <value>
+                <fullName>Low Sanction amount</fullName>
+                <default>false</default>
+                <label>Low Sanction amount</label>
+            </value>
+            <value>
+                <fullName>Disbursal Not Received</fullName>
+                <default>false</default>
+                <label>Disbursal Not Received</label>
+            </value>
+            <value>
+                <fullName>OTC Not Informed</fullName>
+                <default>false</default>
+                <label>OTC Not Informed</label>
+            </value>
+            <value>
+                <fullName>Insurance Amount not informed</fullName>
+                <default>false</default>
+                <label>Insurance Amount not informed</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

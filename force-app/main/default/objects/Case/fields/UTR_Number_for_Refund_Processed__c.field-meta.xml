@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UTR_Number_for_Refund_Processed__c</fullName>
+    <description>Stores the Unique Transaction Reference number for a processed refund.</description>
+    <externalId>false</externalId>
+    <label>UTR Number</label>
+    <length>22</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

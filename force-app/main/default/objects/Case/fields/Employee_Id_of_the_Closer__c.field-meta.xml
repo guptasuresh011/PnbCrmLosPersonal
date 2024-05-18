@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Id_of_the_Closer__c</fullName>
+    <description>Employee ID of the person who closed the case.</description>
+    <externalId>false</externalId>
+    <formula>If ( ISPICKVAL( Status , &apos;Closed&apos;), ( LastModifiedBy.Employee_ID__c ), Null)</formula>
+    <label>Employee Id of the Closer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

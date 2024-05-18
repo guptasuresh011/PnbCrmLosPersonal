@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_LOD__c</fullName>
+    <description>Reason for the Letter of Demand (LOD) issued in case of non-payment.</description>
+    <externalId>false</externalId>
+    <label>Reason for LOD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Did Not Get At The Time Of Disbursement</fullName>
+                <default>false</default>
+                <label>Did Not Get At The Time Of Disbursement</label>
+            </value>
+            <value>
+                <fullName>Need For Self-Records</fullName>
+                <default>false</default>
+                <label>Need For Self-Records</label>
+            </value>
+            <value>
+                <fullName>For Balance Transfer Purpose</fullName>
+                <default>false</default>
+                <label>For Balance Transfer Purpose</label>
+            </value>
+            <value>
+                <fullName>For BT Purpose</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>For BT Purpose</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

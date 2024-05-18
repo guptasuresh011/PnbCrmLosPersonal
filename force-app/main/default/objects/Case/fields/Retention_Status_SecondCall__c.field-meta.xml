@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retention_Status_SecondCall__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>As Per TL Retention</inlineHelpText>
+    <label>Retention Status(TL)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason_for_closure_as_per_RO_SecondCall__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Retained-Repricing</fullName>
+                <default>false</default>
+                <label>Retained-Repricing</label>
+            </value>
+            <value>
+                <fullName>Retained-Repricing and FD</fullName>
+                <default>false</default>
+                <label>Retained-Repricing and FD</label>
+            </value>
+            <value>
+                <fullName>Retained-FD/Partpayment</fullName>
+                <default>false</default>
+                <label>Retained-FD/Partpayment</label>
+            </value>
+            <value>
+                <fullName>Not Contactable</fullName>
+                <default>false</default>
+                <label>Not Contactable</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Repricing</fullName>
+                <default>false</default>
+                <label>Not Contactable-Repricing</label>
+            </value>
+            <value>
+                <fullName>Irrelevant Documents &amp; Repricing</fullName>
+                <default>false</default>
+                <label>Irrelevant Documents &amp; Repricing</label>
+            </value>
+            <value>
+                <fullName>Irrelevant Documents</fullName>
+                <default>false</default>
+                <label>Irrelevant Documents</label>
+            </value>
+            <value>
+                <fullName>Call back</fullName>
+                <default>false</default>
+                <label>Call back</label>
+            </value>
+            <value>
+                <fullName>Not Retained</fullName>
+                <default>false</default>
+                <label>Not Retained</label>
+            </value>
+            <value>
+                <fullName>Top up Follow up</fullName>
+                <default>false</default>
+                <label>Top up Follow up</label>
+            </value>
+            <value>
+                <fullName>Top up follow up &amp; Repricing</fullName>
+                <default>false</default>
+                <label>Top up follow up &amp; Repricing</label>
+            </value>
+            <value>
+                <fullName>Branch Collection Feedback</fullName>
+                <default>false</default>
+                <label>Branch Collection Feedback</label>
+            </value>
+            <value>
+                <fullName>Retained-Seller/Internal BT</fullName>
+                <default>false</default>
+                <label>Retained-Seller/Internal BT</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 1</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 1</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 2</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 2</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 3</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 3</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Retained-Repricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <valueName>Retained-Repricing and FD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <valueName>Retained-FD/Partpayment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Not Contactable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Not Contactable-Repricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Irrelevant Documents &amp; Repricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Irrelevant Documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adequate Funds</controllingFieldValue>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <controllingFieldValue>BT Rate Drop</controllingFieldValue>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Not Retained</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <valueName>Top up Follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BT Bank Scheme</controllingFieldValue>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <valueName>Top up follow up &amp; Repricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delinquent</controllingFieldValue>
+            <valueName>Branch Collection Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale Of property</controllingFieldValue>
+            <valueName>Retained-Seller/Internal BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BT Top Up</controllingFieldValue>
+            <valueName>Call back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Contactable</controllingFieldValue>
+            <valueName>Not Contactable - Attempt 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Contactable</controllingFieldValue>
+            <valueName>Not Contactable - Attempt 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Contactable</controllingFieldValue>
+            <valueName>Not Contactable - Attempt 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Rejection_Reason__c</fullName>
+    <description>The reason for rejecting a refund request.</description>
+    <externalId>false</externalId>
+    <label>Refund Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Permitted as per Policy</fullName>
+                <default>false</default>
+                <label>Not Permitted as per Policy</label>
+            </value>
+            <value>
+                <fullName>Minimum Fee required not received</fullName>
+                <default>false</default>
+                <label>Minimum Fee required not received</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

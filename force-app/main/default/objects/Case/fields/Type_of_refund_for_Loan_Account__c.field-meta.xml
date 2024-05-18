@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_refund_for_Loan_Account__c</fullName>
+    <description>Type of refund issued for a loan account.</description>
+    <externalId>false</externalId>
+    <label>Type of refund for Loan Account</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sundry Accounts Refund</fullName>
+                <default>false</default>
+                <label>Sundry Accounts Refund</label>
+            </value>
+            <value>
+                <fullName>Login Fee/Processing Fee (Undisbursed cases)</fullName>
+                <default>false</default>
+                <label>Login Fee/Processing Fee (Undisbursed cases)</label>
+            </value>
+            <value>
+                <fullName>Login Fee/Processing Fee (Disbursed cases)</fullName>
+                <default>false</default>
+                <label>Login Fee/Processing Fee (Disbursed cases)</label>
+            </value>
+            <value>
+                <fullName>Excess (Interest/EMI) in live account</fullName>
+                <default>false</default>
+                <label>Excess (Interest/EMI) in live account</label>
+            </value>
+            <value>
+                <fullName>Interest Refund – Disbursement Cancellation</fullName>
+                <default>false</default>
+                <label>Interest Refund – Disbursement Cancellation</label>
+            </value>
+            <value>
+                <fullName>Refund of Charges</fullName>
+                <default>false</default>
+                <label>Refund of Charges</label>
+            </value>
+            <value>
+                <fullName>TDS on loan</fullName>
+                <default>false</default>
+                <label>TDS on loan</label>
+            </value>
+            <value>
+                <fullName>Third party refunds</fullName>
+                <default>false</default>
+                <label>Third party refunds</label>
+            </value>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supporting_Documents_for_Loan_Closure__c</fullName>
+    <externalId>false</externalId>
+    <label>Supporting Documents for Loan Closure</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sanction letter from other FI</fullName>
+                <default>false</default>
+                <label>Sanction letter from other FI</label>
+            </value>
+            <value>
+                <fullName>Agreement to Sell</fullName>
+                <default>false</default>
+                <label>Agreement to Sell</label>
+            </value>
+            <value>
+                <fullName>Bank Statement (3 months)</fullName>
+                <default>false</default>
+                <label>Bank Statement (3 months)</label>
+            </value>
+            <value>
+                <fullName>Top up request rejection from Credit/ Technical Team</fullName>
+                <default>false</default>
+                <label>Top up request rejection from Credit/ Technical Team</label>
+            </value>
+            <value>
+                <fullName>Customer refused to submit document</fullName>
+                <default>false</default>
+                <label>Customer refused to submit document</label>
+            </value>
+            <value>
+                <fullName>Insurance Claim Settlement</fullName>
+                <default>false</default>
+                <label>Insurance Claim Settlement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

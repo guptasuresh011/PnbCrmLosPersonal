@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closure_Remarks__c</fullName>
+    <description>Comments or notes when closing a case.</description>
+    <externalId>false</externalId>
+    <label>Closure Remarks</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request approved and processed</fullName>
+                <default>false</default>
+                <label>Request approved and processed</label>
+            </value>
+            <value>
+                <fullName>Request declined</fullName>
+                <default>false</default>
+                <label>Request declined</label>
+            </value>
+            <value>
+                <fullName>Application approved ans sanctioned</fullName>
+                <default>false</default>
+                <label>Application approved ans sanctioned</label>
+            </value>
+            <value>
+                <fullName>Legal &amp; Technical pending</fullName>
+                <default>false</default>
+                <label>Legal &amp; Technical pending</label>
+            </value>
+            <value>
+                <fullName>Refund processed.</fullName>
+                <default>false</default>
+                <label>Refund processed.</label>
+            </value>
+            <value>
+                <fullName>Refund Denied. Customer informed.</fullName>
+                <default>false</default>
+                <label>Refund Denied. Customer informed.</label>
+            </value>
+            <value>
+                <fullName>Approval awaited and customer informed of the TAT</fullName>
+                <default>false</default>
+                <label>Approval awaited and customer informed of the TAT</label>
+            </value>
+            <value>
+                <fullName>Cancellation processed. Customer Informed.</fullName>
+                <default>false</default>
+                <label>Cancellation processed. Customer Informed.</label>
+            </value>
+            <value>
+                <fullName>Cancellation initiated. Customer Informed.</fullName>
+                <default>false</default>
+                <label>Cancellation initiated. Customer Informed.</label>
+            </value>
+            <value>
+                <fullName>Queries resolved</fullName>
+                <default>false</default>
+                <label>Queries resolved</label>
+            </value>
+            <value>
+                <fullName>Matter raised to underwriting team</fullName>
+                <default>false</default>
+                <label>Matter raised to underwriting team</label>
+            </value>
+            <value>
+                <fullName>Matter raised to ZOM/ZAM</fullName>
+                <default>false</default>
+                <label>Matter raised to ZOM/ZAM</label>
+            </value>
+            <value>
+                <fullName>NOC issued to the customer</fullName>
+                <default>false</default>
+                <label>NOC issued to the customer</label>
+            </value>
+            <value>
+                <fullName>NOC not issued as the account is not regular</fullName>
+                <default>false</default>
+                <label>NOC not issued as the account is not regular</label>
+            </value>
+            <value>
+                <fullName>GST number updated</fullName>
+                <default>false</default>
+                <label>GST number updated</label>
+            </value>
+            <value>
+                <fullName>GST number not updataded</fullName>
+                <default>false</default>
+                <label>GST number not updataded</label>
+            </value>
+            <value>
+                <fullName>EMI revised</fullName>
+                <default>false</default>
+                <label>EMI revised</label>
+            </value>
+            <value>
+                <fullName>EMI not revised as per internal processed</fullName>
+                <default>false</default>
+                <label>EMI not revised as per internal processed</label>
+            </value>
+            <value>
+                <fullName>ROI offer extended over the counter</fullName>
+                <default>false</default>
+                <label>ROI offer extended over the counter</label>
+            </value>
+            <value>
+                <fullName>ROI revision not feasible. Customer Informed.</fullName>
+                <default>false</default>
+                <label>ROI revision not feasible. Customer Informed.</label>
+            </value>
+            <value>
+                <fullName>Copy of Sale Deed &amp; MODT</fullName>
+                <default>false</default>
+                <label>Copy of Sale Deed &amp; MODT</label>
+            </value>
+            <value>
+                <fullName>Scan copy provided</fullName>
+                <default>false</default>
+                <label>Scan copy provided</label>
+            </value>
+            <value>
+                <fullName>Scan copy not available with CPC</fullName>
+                <default>false</default>
+                <label>Scan copy not available with CPC</label>
+            </value>
+            <value>
+                <fullName>MODT not collected from SRO</fullName>
+                <default>false</default>
+                <label>MODT not collected from SRO</label>
+            </value>
+            <value>
+                <fullName>To Collect Property documents from builder &amp; update list of documents</fullName>
+                <default>false</default>
+                <label>To Collect Property documents from builder &amp; update list of documents</label>
+            </value>
+            <value>
+                <fullName>Documents collected and updated LOD provided to customer</fullName>
+                <default>false</default>
+                <label>Documents collected and updated LOD provided to customer</label>
+            </value>
+            <value>
+                <fullName>ASM/Coordinator informed to collect the necessary documents. TAT informed to customer</fullName>
+                <default>false</default>
+                <label>ASM/Coordinator informed to collect the necessary documents. TAT informed to customer</label>
+            </value>
+            <value>
+                <fullName>LOD issued over the counter</fullName>
+                <default>false</default>
+                <label>LOD issued over the counter</label>
+            </value>
+            <value>
+                <fullName>LOD issued on email</fullName>
+                <default>false</default>
+                <label>LOD issued on email</label>
+            </value>
+            <value>
+                <fullName>Charges not paid LOD not issued.</fullName>
+                <default>false</default>
+                <label>Charges not paid LOD not issued.</label>
+            </value>
+            <value>
+                <fullName>Scan copy provided to customer</fullName>
+                <default>false</default>
+                <label>Scan copy provided to customer</label>
+            </value>
+            <value>
+                <fullName>Scan copy checked and accordingly customer’s queries resolved</fullName>
+                <default>false</default>
+                <label>Scan copy checked and accordingly customer’s queries resolved</label>
+            </value>
+            <value>
+                <fullName>All queries stand addressed and customer is now satisfied</fullName>
+                <default>false</default>
+                <label>All queries stand addressed and customer is now satisfied</label>
+            </value>
+            <value>
+                <fullName>Customer is not contactable/not reachable</fullName>
+                <default>false</default>
+                <label>Customer is not contactable/not reachable</label>
+            </value>
+            <value>
+                <fullName>Customer is not convinced with our response. Case referred to ZOM/ZM/Central Team</fullName>
+                <default>false</default>
+                <label>Customer is not convinced with our response. Case referred to ZOM/ZM/Central Team</label>
+            </value>
+            <value>
+                <fullName>Scan copy not provided as the document is not available</fullName>
+                <default>false</default>
+                <label>Scan copy not provided as the document is not available</label>
+            </value>
+            <value>
+                <fullName>Refund credited in customer’s account</fullName>
+                <default>false</default>
+                <label>Refund credited in customer’s account</label>
+            </value>
+            <value>
+                <fullName>Refund parked in excess</fullName>
+                <default>false</default>
+                <label>Refund parked in excess</label>
+            </value>
+            <value>
+                <fullName>Refund not received</fullName>
+                <default>false</default>
+                <label>Refund not received</label>
+            </value>
+            <value>
+                <fullName>Query on disbursement resolved</fullName>
+                <default>false</default>
+                <label>Query on disbursement resolved</label>
+            </value>
+            <value>
+                <fullName>Query forwarded to the ASM for resolution</fullName>
+                <default>false</default>
+                <label>Query forwarded to the ASM for resolution</label>
+            </value>
+            <value>
+                <fullName>Application approved and sanctioned</fullName>
+                <default>false</default>
+                <label>Application approved and sanctioned</label>
+            </value>
+            <value>
+                <fullName>Collateral/Security released to branch</fullName>
+                <default>false</default>
+                <label>Collateral/Security released to branch</label>
+            </value>
+            <value>
+                <fullName>Collateral/Security is with branch</fullName>
+                <default>false</default>
+                <label>Collateral/Security is with branch</label>
+            </value>
+            <value>
+                <fullName>Fresh SR raised</fullName>
+                <default>false</default>
+                <label>Fresh SR raised</label>
+            </value>
+            <value>
+                <fullName>Application Declined. Applicant Informed</fullName>
+                <default>false</default>
+                <label>Application Declined. Applicant Informed</label>
+            </value>
+            <value>
+                <fullName>Documents pending from applicant</fullName>
+                <default>false</default>
+                <label>Documents pending from applicant</label>
+            </value>
+            <value>
+                <fullName>Address corrected</fullName>
+                <default>false</default>
+                <label>Address corrected</label>
+            </value>
+            <value>
+                <fullName>Address proof requried</fullName>
+                <default>false</default>
+                <label>Address proof requried</label>
+            </value>
+            <value>
+                <fullName>Fess is non refundable. Applicant informed</fullName>
+                <default>false</default>
+                <label>Fess is non refundable. Applicant informed</label>
+            </value>
+            <value>
+                <fullName>Fees refunded.</fullName>
+                <default>false</default>
+                <label>Fees refunded.</label>
+            </value>
+            <value>
+                <fullName>Approval received. Bank details awaited</fullName>
+                <default>false</default>
+                <label>Approval received. Bank details awaited</label>
+            </value>
+            <value>
+                <fullName>Request approved</fullName>
+                <default>false</default>
+                <label>Request approved</label>
+            </value>
+            <value>
+                <fullName>Request rejected</fullName>
+                <default>false</default>
+                <label>Request rejected</label>
+            </value>
+            <value>
+                <fullName>Account statement provided via email</fullName>
+                <default>false</default>
+                <label>Account statement provided via email</label>
+            </value>
+            <value>
+                <fullName>Account statement provided via courier</fullName>
+                <default>false</default>
+                <label>Account statement provided via courier</label>
+            </value>
+            <value>
+                <fullName>LOD provided via email</fullName>
+                <default>false</default>
+                <label>LOD provided via email</label>
+            </value>
+            <value>
+                <fullName>LOD provided via courier</fullName>
+                <default>false</default>
+                <label>LOD provided via courier</label>
+            </value>
+            <value>
+                <fullName>LOD provided over the counter</fullName>
+                <default>false</default>
+                <label>LOD provided over the counter</label>
+            </value>
+            <value>
+                <fullName>LOD not issued as charges not received</fullName>
+                <default>false</default>
+                <label>LOD not issued as charges not received</label>
+            </value>
+            <value>
+                <fullName>Repayment Schedule provided via email</fullName>
+                <default>false</default>
+                <label>Repayment Schedule provided via email</label>
+            </value>
+            <value>
+                <fullName>Repayment Schedule provided via courier</fullName>
+                <default>false</default>
+                <label>Repayment Schedule provided via courier</label>
+            </value>
+            <value>
+                <fullName>Repayment Schedule provided over the counter</fullName>
+                <default>false</default>
+                <label>Repayment Schedule provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Provisoinal IT Certificate provided via email</fullName>
+                <default>false</default>
+                <label>Provisoinal IT Certificate provided via email</label>
+            </value>
+            <value>
+                <fullName>Provisoinal IT Certificate provided via courier</fullName>
+                <default>false</default>
+                <label>Provisoinal IT Certificate provided via courier</label>
+            </value>
+            <value>
+                <fullName>Provisoinal IT Certificate provided over the counter</fullName>
+                <default>false</default>
+                <label>Provisoinal IT Certificate provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Provisoinal IT Certificate not applicable, it is a non home loan</fullName>
+                <default>false</default>
+                <label>Provisoinal IT Certificate not applicable, it is a non home loan</label>
+            </value>
+            <value>
+                <fullName>Final IT Certificate provided via email</fullName>
+                <default>false</default>
+                <label>Final IT Certificate provided via email</label>
+            </value>
+            <value>
+                <fullName>Final IT Certificate provided via courier</fullName>
+                <default>false</default>
+                <label>Final IT Certificate provided via courier</label>
+            </value>
+            <value>
+                <fullName>Final IT Certificate provided over the counter</fullName>
+                <default>false</default>
+                <label>Final IT Certificate provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Final IT Certificate not applicable, it is a non home loan</fullName>
+                <default>false</default>
+                <label>Final IT Certificate not applicable, it is a non home loan</label>
+            </value>
+            <value>
+                <fullName>NOC provided via email</fullName>
+                <default>false</default>
+                <label>NOC provided via email</label>
+            </value>
+            <value>
+                <fullName>NOC provided via courier</fullName>
+                <default>false</default>
+                <label>NOC provided via courier</label>
+            </value>
+            <value>
+                <fullName>NOC provided over the counter</fullName>
+                <default>false</default>
+                <label>NOC provided over the counter</label>
+            </value>
+            <value>
+                <fullName>NOC not applicable, as loan is Active</fullName>
+                <default>false</default>
+                <label>NOC not applicable, as loan is Active</label>
+            </value>
+            <value>
+                <fullName>Letter provided via email</fullName>
+                <default>false</default>
+                <label>Letter provided via email</label>
+            </value>
+            <value>
+                <fullName>Letter provided via courier</fullName>
+                <default>false</default>
+                <label>Letter provided via courier</label>
+            </value>
+            <value>
+                <fullName>Letter provided over the counter</fullName>
+                <default>false</default>
+                <label>Letter provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Address is updated in loan account number</fullName>
+                <default>false</default>
+                <label>Address is updated in loan account number</label>
+            </value>
+            <value>
+                <fullName>Address proof required/not valid</fullName>
+                <default>false</default>
+                <label>Address proof required/not valid</label>
+            </value>
+            <value>
+                <fullName>Email id is updated in loan account number</fullName>
+                <default>false</default>
+                <label>Email id is updated in loan account number</label>
+            </value>
+            <value>
+                <fullName>Email id is not updated</fullName>
+                <default>false</default>
+                <label>Email id is not updated</label>
+            </value>
+            <value>
+                <fullName>Contact Number is updated in loan account number</fullName>
+                <default>false</default>
+                <label>Contact Number is updated in loan account number</label>
+            </value>
+            <value>
+                <fullName>Contact Number is not updated</fullName>
+                <default>false</default>
+                <label>Contact Number is not updated</label>
+            </value>
+            <value>
+                <fullName>Correction made</fullName>
+                <default>false</default>
+                <label>Correction made</label>
+            </value>
+            <value>
+                <fullName>Corrections have not been made</fullName>
+                <default>false</default>
+                <label>Corrections have not been made</label>
+            </value>
+            <value>
+                <fullName>Loan downsized</fullName>
+                <default>false</default>
+                <label>Loan downsized</label>
+            </value>
+            <value>
+                <fullName>Loan has not been downsized</fullName>
+                <default>false</default>
+                <label>Loan has not been downsized</label>
+            </value>
+            <value>
+                <fullName>Warrant issued via courier</fullName>
+                <default>false</default>
+                <label>Warrant issued via courier</label>
+            </value>
+            <value>
+                <fullName>Warrant not issued</fullName>
+                <default>false</default>
+                <label>Warrant not issued</label>
+            </value>
+            <value>
+                <fullName>Request processed and customer informed</fullName>
+                <default>false</default>
+                <label>Request processed and customer informed</label>
+            </value>
+            <value>
+                <fullName>Request not processed and customer informed</fullName>
+                <default>false</default>
+                <label>Request not processed and customer informed</label>
+            </value>
+            <value>
+                <fullName>Request under follow up with the Insurance company and customer informed</fullName>
+                <default>false</default>
+                <label>Request under follow up with the Insurance company and customer informed</label>
+            </value>
+            <value>
+                <fullName>Insurance cancelled and customer informed</fullName>
+                <default>false</default>
+                <label>Insurance cancelled and customer informed</label>
+            </value>
+            <value>
+                <fullName>Approval initiated and customer informed</fullName>
+                <default>false</default>
+                <label>Approval initiated and customer informed</label>
+            </value>
+            <value>
+                <fullName>Request forwarded to the Insurance company and customer informed</fullName>
+                <default>false</default>
+                <label>Request forwarded to the Insurance company and customer informed</label>
+            </value>
+            <value>
+                <fullName>Customer Retained</fullName>
+                <default>false</default>
+                <label>Customer Retained</label>
+            </value>
+            <value>
+                <fullName>Pre closure approved</fullName>
+                <default>false</default>
+                <label>Pre closure approved</label>
+            </value>
+            <value>
+                <fullName>Property Papers handed over to the customer.Acknowledgement filed with storage vendor</fullName>
+                <default>false</default>
+                <label>Property Papers handed over to the customer.Acknowledgement filed with storage vendor</label>
+            </value>
+            <value>
+                <fullName>Customer has not visited branch to collect the papers, hence papers have been filed with storage vendor</fullName>
+                <default>false</default>
+                <label>Customer has not visited branch to collect the papers, hence papers have been filed with storage vendor</label>
+            </value>
+            <value>
+                <fullName>Papers are not to be released for an ongoing legal matter</fullName>
+                <default>false</default>
+                <label>Papers are not to be released for an ongoing legal matter</label>
+            </value>
+            <value>
+                <fullName>Repayment mode swapped as requested</fullName>
+                <default>false</default>
+                <label>Repayment mode swapped as requested</label>
+            </value>
+            <value>
+                <fullName>Repayment mode not swapped</fullName>
+                <default>false</default>
+                <label>Repayment mode not swapped</label>
+            </value>
+            <value>
+                <fullName>New Repayment Mode received.</fullName>
+                <default>false</default>
+                <label>New Repayment Mode received.</label>
+            </value>
+            <value>
+                <fullName>New Repayment Mode found discrepant</fullName>
+                <default>false</default>
+                <label>New Repayment Mode found discrepant</label>
+            </value>
+            <value>
+                <fullName>Revised rate offered</fullName>
+                <default>false</default>
+                <label>Revised rate offered</label>
+            </value>
+            <value>
+                <fullName>No rate drop offered</fullName>
+                <default>false</default>
+                <label>No rate drop offered</label>
+            </value>
+            <value>
+                <fullName>Recovery feedback required</fullName>
+                <default>false</default>
+                <label>Recovery feedback required</label>
+            </value>
+            <value>
+                <fullName>BBH recommendation required</fullName>
+                <default>false</default>
+                <label>BBH recommendation required</label>
+            </value>
+            <value>
+                <fullName>Copy dispatched to customer</fullName>
+                <default>false</default>
+                <label>Copy dispatched to customer</label>
+            </value>
+            <value>
+                <fullName>Documents not available in the docket</fullName>
+                <default>false</default>
+                <label>Documents not available in the docket</label>
+            </value>
+            <value>
+                <fullName>Interest Certificate/SOA provided via email</fullName>
+                <default>false</default>
+                <label>Interest Certificate/SOA provided via email</label>
+            </value>
+            <value>
+                <fullName>Interest Certificate/SOA provided via courier</fullName>
+                <default>false</default>
+                <label>Interest Certificate/SOA provided via courier</label>
+            </value>
+            <value>
+                <fullName>Interest Certificate / SOA provided over the counter</fullName>
+                <default>false</default>
+                <label>Interest Certificate / SOA provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Duplicate FDR issued</fullName>
+                <default>false</default>
+                <label>Duplicate FDR issued</label>
+            </value>
+            <value>
+                <fullName>Duplicate FDR not issued</fullName>
+                <default>false</default>
+                <label>Duplicate FDR not issued</label>
+            </value>
+            <value>
+                <fullName>Pre closure letter issued via mail</fullName>
+                <default>false</default>
+                <label>Pre closure letter issued via mail</label>
+            </value>
+            <value>
+                <fullName>Pre closure letter issued over the counter</fullName>
+                <default>false</default>
+                <label>Pre closure letter issued over the counter</label>
+            </value>
+            <value>
+                <fullName>Customer will visit the branch to collect</fullName>
+                <default>false</default>
+                <label>Customer will visit the branch to collect</label>
+            </value>
+            <value>
+                <fullName>Pre closure letter issued via courier</fullName>
+                <default>false</default>
+                <label>Pre closure letter issued via courier</label>
+            </value>
+            <value>
+                <fullName>Incorrect SR head selected</fullName>
+                <default>false</default>
+                <label>Incorrect SR head selected</label>
+            </value>
+            <value>
+                <fullName>Branch advised to refer the matter to Underwriting/Recover/Legal team</fullName>
+                <default>false</default>
+                <label>Branch advised to refer the matter to Underwriting/Recover/Legal team</label>
+            </value>
+            <value>
+                <fullName>Requested draft provided on mail</fullName>
+                <default>false</default>
+                <label>Requested draft provided on mail</label>
+            </value>
+            <value>
+                <fullName>Branch advised to refer the matter to ZOM/ZAM/BBH/RBH</fullName>
+                <default>false</default>
+                <label>Branch advised to refer the matter to ZOM/ZAM/BBH/RBH</label>
+            </value>
+            <value>
+                <fullName>Requested Draft is attached</fullName>
+                <default>false</default>
+                <label>Requested Draft is attached</label>
+            </value>
+            <value>
+                <fullName>Insurance policy provided via mail</fullName>
+                <default>false</default>
+                <label>Insurance policy provided via mail</label>
+            </value>
+            <value>
+                <fullName>Insurance company to provide the details. Request has been forwarded.</fullName>
+                <default>false</default>
+                <label>Insurance company to provide the details. Request has been forwarded.</label>
+            </value>
+            <value>
+                <fullName>Request not processed. Documents are incomplete</fullName>
+                <default>false</default>
+                <label>Request not processed. Documents are incomplete</label>
+            </value>
+            <value>
+                <fullName>Cheque handed over</fullName>
+                <default>false</default>
+                <label>Cheque handed over</label>
+            </value>
+            <value>
+                <fullName>Request rejected as per Technical team&apos;s remarks</fullName>
+                <default>false</default>
+                <label>Request rejected as per Technical team&apos;s remarks</label>
+            </value>
+            <value>
+                <fullName>Cheque printed and customer informed</fullName>
+                <default>false</default>
+                <label>Cheque printed and customer informed</label>
+            </value>
+            <value>
+                <fullName>Application submitted with NHB</fullName>
+                <default>false</default>
+                <label>Application submitted with NHB</label>
+            </value>
+            <value>
+                <fullName>Application processed. Pending for submission with NHB</fullName>
+                <default>false</default>
+                <label>Application processed. Pending for submission with NHB</label>
+            </value>
+            <value>
+                <fullName>Application declined</fullName>
+                <default>false</default>
+                <label>Application declined</label>
+            </value>
+            <value>
+                <fullName>Discrepant application. Customer Informed.</fullName>
+                <default>false</default>
+                <label>Discrepant application. Customer Informed.</label>
+            </value>
+            <value>
+                <fullName>Docket pending for detailed checking</fullName>
+                <default>false</default>
+                <label>Docket pending for detailed checking</label>
+            </value>
+            <value>
+                <fullName>Additional data awaited</fullName>
+                <default>false</default>
+                <label>Additional data awaited</label>
+            </value>
+            <value>
+                <fullName>Revised offer extended on mail</fullName>
+                <default>false</default>
+                <label>Revised offer extended on mail</label>
+            </value>
+            <value>
+                <fullName>No email address updated. Letter dispatched</fullName>
+                <default>false</default>
+                <label>No email address updated. Letter dispatched</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>Account Statement provided over the counter</fullName>
+                <default>false</default>
+                <label>Account Statement provided over the counter</label>
+            </value>
+            <value>
+                <fullName>Not Contactable/Not Answering</fullName>
+                <default>false</default>
+                <label>Not Contactable/Not Answering</label>
+            </value>
+            <value>
+                <fullName>Loan Closed</fullName>
+                <default>false</default>
+                <label>Loan Closed</label>
+            </value>
+            <value>
+                <fullName>Loan not closed</fullName>
+                <default>false</default>
+                <label>Loan not closed</label>
+            </value>
+            <value>
+                <fullName>NEFT/Cheque received</fullName>
+                <default>false</default>
+                <label>NEFT/Cheque received</label>
+            </value>
+            <value>
+                <fullName>NEFT/Cheque not received</fullName>
+                <default>false</default>
+                <label>NEFT/Cheque not received</label>
+            </value>
+            <value>
+                <fullName>ECS will be represented</fullName>
+                <default>false</default>
+                <label>ECS will be represented</label>
+            </value>
+            <value>
+                <fullName>ECS cannot be represented</fullName>
+                <default>false</default>
+                <label>ECS cannot be represented</label>
+            </value>
+            <value>
+                <fullName>Date finalized for registration</fullName>
+                <default>false</default>
+                <label>Date finalized for registration</label>
+            </value>
+            <value>
+                <fullName>Customer not contactable</fullName>
+                <default>false</default>
+                <label>Customer not contactable</label>
+            </value>
+            <value>
+                <fullName>Customer informed through email</fullName>
+                <default>false</default>
+                <label>Customer informed through email</label>
+            </value>
+            <value>
+                <fullName>Customer informed through call</fullName>
+                <default>false</default>
+                <label>Customer informed through call</label>
+            </value>
+            <value>
+                <fullName>Repayment pouch not received, informed CPC Banking</fullName>
+                <default>false</default>
+                <label>Repayment pouch not received, informed CPC Banking</label>
+            </value>
+            <value>
+                <fullName>Application approved</fullName>
+                <default>false</default>
+                <label>Application approved</label>
+            </value>
+            <value>
+                <fullName>Claim received</fullName>
+                <default>false</default>
+                <label>Claim received</label>
+            </value>
+            <value>
+                <fullName>Claim submitted</fullName>
+                <default>false</default>
+                <label>Claim submitted</label>
+            </value>
+            <value>
+                <fullName>Disbursement already done</fullName>
+                <default>false</default>
+                <label>Disbursement already done</label>
+            </value>
+            <value>
+                <fullName>Customer not agreeable with Sanction/Special Conditions</fullName>
+                <default>false</default>
+                <label>Customer not agreeable with Sanction/Special Conditions</label>
+            </value>
+            <value>
+                <fullName>Customer wants higher loan amount</fullName>
+                <default>false</default>
+                <label>Customer wants higher loan amount</label>
+            </value>
+            <value>
+                <fullName>Incorrect contact details</fullName>
+                <default>false</default>
+                <label>Incorrect contact details</label>
+            </value>
+            <value>
+                <fullName>Customer is not responding</fullName>
+                <default>false</default>
+                <label>Customer is not responding</label>
+            </value>
+            <value>
+                <fullName>Customer not interested due to high ROI</fullName>
+                <default>false</default>
+                <label>Customer not interested due to high ROI</label>
+            </value>
+            <value>
+                <fullName>Customer not interested due to delay in sanction</fullName>
+                <default>false</default>
+                <label>Customer not interested due to delay in sanction</label>
+            </value>
+            <value>
+                <fullName>Customer contacted but property not selected</fullName>
+                <default>false</default>
+                <label>Customer contacted but property not selected</label>
+            </value>
+            <value>
+                <fullName>Loan accounts linked</fullName>
+                <default>false</default>
+                <label>Loan accounts linked</label>
+            </value>
+            <value>
+                <fullName>Loan accounts not linked</fullName>
+                <default>false</default>
+                <label>Loan accounts not linked</label>
+            </value>
+            <value>
+                <fullName>Branch informed through email</fullName>
+                <default>false</default>
+                <label>Branch informed through email</label>
+            </value>
+            <value>
+                <fullName>Branch informed through call</fullName>
+                <default>false</default>
+                <label>Branch informed through call</label>
+            </value>
+            <value>
+                <fullName>Repayment pouch not received, informed Branch</fullName>
+                <default>false</default>
+                <label>Repayment pouch not received, informed Branch</label>
+            </value>
+            <value>
+                <fullName>Intended disbursement updated</fullName>
+                <default>false</default>
+                <label>Intended disbursement updated</label>
+            </value>
+            <value>
+                <fullName>Request raised to sales team</fullName>
+                <default>false</default>
+                <label>Request raised to sales team</label>
+            </value>
+            <value>
+                <fullName>Not eligible</fullName>
+                <default>false</default>
+                <label>Not eligible</label>
+            </value>
+            <value>
+                <fullName>Property not selected</fullName>
+                <default>false</default>
+                <label>Property not selected</label>
+            </value>
+            <value>
+                <fullName>Not contactable</fullName>
+                <default>false</default>
+                <label>Not contactable</label>
+            </value>
+            <value>
+                <fullName>Information provided</fullName>
+                <default>false</default>
+                <label>Information provided</label>
+            </value>
+            <value>
+                <fullName>Calling Campaign – Subsequent Disbursement</fullName>
+                <default>false</default>
+                <label>Calling Campaign – Subsequent Disbursement</label>
+            </value>
+            <value>
+                <fullName>Customer wants to downsize the loan</fullName>
+                <default>false</default>
+                <label>Customer wants to downsize the loan</label>
+            </value>
+            <value>
+                <fullName>Customer informed of the mobile app feature</fullName>
+                <default>false</default>
+                <label>Customer informed of the mobile app feature</label>
+            </value>
+            <value>
+                <fullName>Customer will visit the branch for disbursement</fullName>
+                <default>false</default>
+                <label>Customer will visit the branch for disbursement</label>
+            </value>
+            <value>
+                <fullName>Incorrect contact number</fullName>
+                <default>false</default>
+                <label>Incorrect contact number</label>
+            </value>
+            <value>
+                <fullName>Assistance Provided</fullName>
+                <default>false</default>
+                <label>Assistance Provided</label>
+            </value>
+            <value>
+                <fullName>Process Shared</fullName>
+                <default>false</default>
+                <label>Process Shared</label>
+            </value>
+            <value>
+                <fullName>User ID shared</fullName>
+                <default>false</default>
+                <label>User ID shared</label>
+            </value>
+            <value>
+                <fullName>Mail sent to the customer</fullName>
+                <default>false</default>
+                <label>Mail sent to the customer</label>
+            </value>
+            <value>
+                <fullName>Discrepant repayment pouch</fullName>
+                <default>false</default>
+                <label>Discrepant repayment pouch</label>
+            </value>
+            <value>
+                <fullName>NACH is not registered</fullName>
+                <default>false</default>
+                <label>NACH is not registered</label>
+            </value>
+            <value>
+                <fullName>Customer contacted but disbursement date not finalised</fullName>
+                <default>false</default>
+                <label>Customer contacted but disbursement date not finalised</label>
+            </value>
+            <value>
+                <fullName>Disbursement released</fullName>
+                <default>false</default>
+                <label>Disbursement released</label>
+            </value>
+            <value>
+                <fullName>Disbursement on HOLD</fullName>
+                <default>false</default>
+                <label>Disbursement on HOLD</label>
+            </value>
+            <value>
+                <fullName>Customer is not interested (amount/rate/tenure)</fullName>
+                <default>false</default>
+                <label>Customer is not interested (amount/rate/tenure)</label>
+            </value>
+            <value>
+                <fullName>Tab clicked erroneously</fullName>
+                <default>false</default>
+                <label>Tab clicked erroneously</label>
+            </value>
+            <value>
+                <fullName>Status updated to Temporary Release</fullName>
+                <default>false</default>
+                <label>Status updated to Temporary Release</label>
+            </value>
+            <value>
+                <fullName>Status changed from Temporary Release to Permanent Release</fullName>
+                <default>false</default>
+                <label>Status changed from Temporary Release to Permanent Release</label>
+            </value>
+            <value>
+                <fullName>Customer interested --FD yet to be created</fullName>
+                <default>false</default>
+                <label>Customer interested --FD yet to be created</label>
+            </value>
+            <value>
+                <fullName>Customer interested – FD created</fullName>
+                <default>false</default>
+                <label>Customer interested – FD created</label>
+            </value>
+            <value>
+                <fullName>Customer interested -- Insurance cheque not submitted</fullName>
+                <default>false</default>
+                <label>Customer interested -- Insurance cheque not submitted</label>
+            </value>
+            <value>
+                <fullName>Customer interested -- Insurance policy booked</fullName>
+                <default>false</default>
+                <label>Customer interested -- Insurance policy booked</label>
+            </value>
+            <value>
+                <fullName>Not Interest</fullName>
+                <default>false</default>
+                <label>Not Interest</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Receipt book received</fullName>
+                <default>false</default>
+                <label>Receipt book received</label>
+            </value>
+            <value>
+                <fullName>Receipt book not issued. Branch informed to resolve the discrepancy</fullName>
+                <default>false</default>
+                <label>Receipt book not issued. Branch informed to resolve the discrepancy</label>
+            </value>
+            <value>
+                <fullName>Receipt book not issued. Old book not received</fullName>
+                <default>false</default>
+                <label>Receipt book not issued. Old book not received</label>
+            </value>
+            <value>
+                <fullName>Customer has submitted the application form</fullName>
+                <default>false</default>
+                <label>Customer has submitted the application form</label>
+            </value>
+            <value>
+                <fullName>Customer has not submitted the application form. Process informed</fullName>
+                <default>false</default>
+                <label>Customer has not submitted the application form. Process informed</label>
+            </value>
+            <value>
+                <fullName>Application yet to be sumbitted</fullName>
+                <default>false</default>
+                <label>Application yet to be sumbitted</label>
+            </value>
+            <value>
+                <fullName>Queries resolved. Email sent to customer</fullName>
+                <default>false</default>
+                <label>Queries resolved. Email sent to customer</label>
+            </value>
+            <value>
+                <fullName>Queries resolved. Telephonically informed to customer</fullName>
+                <default>false</default>
+                <label>Queries resolved. Telephonically informed to customer</label>
+            </value>
+            <value>
+                <fullName>Email sent to customer</fullName>
+                <default>false</default>
+                <label>Email sent to customer</label>
+            </value>
+            <value>
+                <fullName>No email updated. Process clarified on call</fullName>
+                <default>false</default>
+                <label>No email updated. Process clarified on call</label>
+            </value>
+            <value>
+                <fullName>Status provided</fullName>
+                <default>false</default>
+                <label>Status provided</label>
+            </value>
+            <value>
+                <fullName>Queries resovled</fullName>
+                <default>false</default>
+                <label>Queries resovled</label>
+            </value>
+            <value>
+                <fullName>Duplicate Warrant issued</fullName>
+                <default>false</default>
+                <label>Duplicate Warrant issued</label>
+            </value>
+            <value>
+                <fullName>Duplicate Warrant not issued</fullName>
+                <default>false</default>
+                <label>Duplicate Warrant not issued</label>
+            </value>
+            <value>
+                <fullName>Refund processed</fullName>
+                <default>false</default>
+                <label>Refund processed</label>
+            </value>
+            <value>
+                <fullName>Refund not processed.Customer informed</fullName>
+                <default>false</default>
+                <label>Refund not processed.Customer informed</label>
+            </value>
+            <value>
+                <fullName>Cheque bounced , loan not closed</fullName>
+                <default>false</default>
+                <label>Cheque bounced , loan not closed</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Concluded</fullName>
+                <default>false</default>
+                <label>Concluded</label>
+            </value>
+            <value>
+                <fullName>High turn around time</fullName>
+                <default>false</default>
+                <label>High turn around time</label>
+            </value>
+            <value>
+                <fullName>Too many documentation</fullName>
+                <default>false</default>
+                <label>Too many documentation</label>
+            </value>
+            <value>
+                <fullName>Lengthy procedure</fullName>
+                <default>false</default>
+                <label>Lengthy procedure</label>
+            </value>
+            <value>
+                <fullName>Unresponsive staff</fullName>
+                <default>false</default>
+                <label>Unresponsive staff</label>
+            </value>
+            <value>
+                <fullName>Wrongly selected the rating as poor</fullName>
+                <default>false</default>
+                <label>Wrongly selected the rating as poor</label>
+            </value>
+            <value>
+                <fullName>Not contactable/ no answer to the service recovery call</fullName>
+                <default>false</default>
+                <label>Not contactable/ no answer to the service recovery call</label>
+            </value>
+            <value>
+                <fullName>NOC Issued</fullName>
+                <default>false</default>
+                <label>NOC Issued</label>
+            </value>
+            <value>
+                <fullName>Partial NOC issued, refer to remarks</fullName>
+                <default>false</default>
+                <label>Partial NOC issued, refer to remarks</label>
+            </value>
+            <value>
+                <fullName>NOC cannot be issued, refer to remarks</fullName>
+                <default>false</default>
+                <label>NOC cannot be issued, refer to remarks</label>
+            </value>
+            <value>
+                <fullName>Request processed. Customer informed</fullName>
+                <default>false</default>
+                <label>Request processed. Customer informed</label>
+            </value>
+            <value>
+                <fullName>Request rejected. Customer Informed</fullName>
+                <default>false</default>
+                <label>Request rejected. Customer Informed</label>
+            </value>
+            <value>
+                <fullName>Applied</fullName>
+                <default>false</default>
+                <label>Applied</label>
+            </value>
+            <value>
+                <fullName>Not Applied</fullName>
+                <default>false</default>
+                <label>Not Applied</label>
+            </value>
+            <value>
+                <fullName>Form 15 G received</fullName>
+                <default>false</default>
+                <label>Form 15 G received</label>
+            </value>
+            <value>
+                <fullName>Form 15 H received</fullName>
+                <default>false</default>
+                <label>Form 15 H received</label>
+            </value>
+            <value>
+                <fullName>NACH sent for registration</fullName>
+                <default>false</default>
+                <label>NACH sent for registration</label>
+            </value>
+            <value>
+                <fullName>NACH form Rejected</fullName>
+                <default>false</default>
+                <label>NACH form Rejected</label>
+            </value>
+            <value>
+                <fullName>Reschedulement done, EMI started</fullName>
+                <default>false</default>
+                <label>Reschedulement done, EMI started</label>
+            </value>
+            <value>
+                <fullName>Moratorium case. Reschedulement will be done in Sept’20</fullName>
+                <default>false</default>
+                <label>Moratorium case. Reschedulement will be done in Sept’20</label>
+            </value>
+            <value>
+                <fullName>Customer will take disbursement soon</fullName>
+                <default>false</default>
+                <label>Customer will take disbursement soon</label>
+            </value>
+            <value>
+                <fullName>Customer not agreed hence last date of July 15th informed</fullName>
+                <default>false</default>
+                <label>Customer not agreed hence last date of July 15th informed</label>
+            </value>
+            <value>
+                <fullName>Part payment received and updated</fullName>
+                <default>false</default>
+                <label>Part payment received and updated</label>
+            </value>
+            <value>
+                <fullName>Part payment not received</fullName>
+                <default>false</default>
+                <label>Part payment not received</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>High turnaround time</fullName>
+                <default>false</default>
+                <label>High turnaround time</label>
+            </value>
+            <value>
+                <fullName>Long Waiting Hours</fullName>
+                <default>false</default>
+                <label>Long Waiting Hours</label>
+            </value>
+            <value>
+                <fullName>Payment not received</fullName>
+                <default>false</default>
+                <label>Payment not received</label>
+            </value>
+            <value>
+                <fullName>Payment received and updated</fullName>
+                <default>false</default>
+                <label>Payment received and updated</label>
+            </value>
+            <value>
+                <fullName>High ROI</fullName>
+                <default>false</default>
+                <label>High ROI</label>
+            </value>
+            <value>
+                <fullName>Long wait time on tollfree</fullName>
+                <default>false</default>
+                <label>Long wait time on tollfree</label>
+            </value>
+            <value>
+                <fullName>NOC Not Issued</fullName>
+                <default>false</default>
+                <label>NOC Not Issued</label>
+            </value>
+            <value>
+                <fullName>Aadhaar updated</fullName>
+                <default>false</default>
+                <label>Aadhaar updated</label>
+            </value>
+            <value>
+                <fullName>Not reachable</fullName>
+                <default>false</default>
+                <label>Not reachable</label>
+            </value>
+            <value>
+                <fullName>Customer not agreed to share details</fullName>
+                <default>false</default>
+                <label>Customer not agreed to share details</label>
+            </value>
+            <value>
+                <fullName>Customer will visit branch</fullName>
+                <default>false</default>
+                <label>Customer will visit branch</label>
+            </value>
+            <value>
+                <fullName>Approved and informed customer</fullName>
+                <default>false</default>
+                <label>Approved and informed customer</label>
+            </value>
+            <value>
+                <fullName>Rejected and informed customer</fullName>
+                <default>false</default>
+                <label>Rejected and informed customer</label>
+            </value>
+            <value>
+                <fullName>Query raised to customer</fullName>
+                <default>false</default>
+                <label>Query raised to customer</label>
+            </value>
+            <value>
+                <fullName>Document received and filed</fullName>
+                <default>false</default>
+                <label>Document received and filed</label>
+            </value>
+            <value>
+                <fullName>Document not received</fullName>
+                <default>false</default>
+                <label>Document not received</label>
+            </value>
+            <value>
+                <fullName>Case discrepant</fullName>
+                <default>false</default>
+                <label>Case discrepant</label>
+            </value>
+            <value>
+                <fullName>FD Sourced, cheque received</fullName>
+                <default>false</default>
+                <label>FD Sourced, cheque received</label>
+            </value>
+            <value>
+                <fullName>FD Sourced, cheque not received</fullName>
+                <default>false</default>
+                <label>FD Sourced, cheque not received</label>
+            </value>
+            <value>
+                <fullName>Approved - KYC okay</fullName>
+                <default>false</default>
+                <label>Approved - KYC okay</label>
+            </value>
+            <value>
+                <fullName>Rejected - KYC not okay</fullName>
+                <default>false</default>
+                <label>Rejected - KYC not okay</label>
+            </value>
+            <value>
+                <fullName>All Applicants Re-KYC done</fullName>
+                <default>false</default>
+                <label>All Applicants Re-KYC done</label>
+            </value>
+            <value>
+                <fullName>Rejected – Documents are incomplete</fullName>
+                <default>false</default>
+                <label>Rejected – Documents are incomplete</label>
+            </value>
+            <value>
+                <fullName>Applicants Re-KYC done, Co-Applicant missing</fullName>
+                <default>false</default>
+                <label>Applicants Re-KYC done, Co-Applicant missing</label>
+            </value>
+            <value>
+                <fullName>Co-Applicants RE-KYC Done</fullName>
+                <default>false</default>
+                <label>Co-Applicants RE-KYC Done</label>
+            </value>
+            <value>
+                <fullName>Primary Applicant missing</fullName>
+                <default>false</default>
+                <label>Primary Applicant missing</label>
+            </value>
+            <value>
+                <fullName>Customer is not interested in restructuring</fullName>
+                <default>false</default>
+                <label>Customer is not interested in restructuring</label>
+            </value>
+            <value>
+                <fullName>Customer requested a call back</fullName>
+                <default>false</default>
+                <label>Customer requested a call back</label>
+            </value>
+            <value>
+                <fullName>Customer has agreed and will share documents</fullName>
+                <default>false</default>
+                <label>Customer has agreed and will share documents</label>
+            </value>
+            <value>
+                <fullName>Customer contacted and documents informed</fullName>
+                <default>false</default>
+                <label>Customer contacted and documents informed</label>
+            </value>
+            <value>
+                <fullName>Documents collected and forwarded to U/W</fullName>
+                <default>false</default>
+                <label>Documents collected and forwarded to U/W</label>
+            </value>
+            <value>
+                <fullName>Documents Collected and Updated in Kastle</fullName>
+                <default>false</default>
+                <label>Documents Collected and Updated in Kastle</label>
+            </value>
+            <value>
+                <fullName>Contact Details wrong. Refer to FCU</fullName>
+                <default>false</default>
+                <label>Contact Details wrong. Refer to FCU</label>
+            </value>
+            <value>
+                <fullName>Customer not picking call. Call Again</fullName>
+                <default>false</default>
+                <label>Customer not picking call. Call Again</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - Asked for call back</fullName>
+                <default>false</default>
+                <label>Customer contacted - Asked for call back</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - Promised to deposit</fullName>
+                <default>false</default>
+                <label>Customer contacted - Promised to deposit</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - Refuse to provide docs</fullName>
+                <default>false</default>
+                <label>Customer contacted - Refuse to provide docs</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - APF Case_ builder delay</fullName>
+                <default>false</default>
+                <label>Customer contacted - APF Case_ builder delay</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - Documents misplaced</fullName>
+                <default>false</default>
+                <label>Customer contacted - Documents misplaced</label>
+            </value>
+            <value>
+                <fullName>Customer contacted - Authority documents delay</fullName>
+                <default>false</default>
+                <label>Customer contacted - Authority documents delay</label>
+            </value>
+            <value>
+                <fullName>Customer informed on the swap procedure</fullName>
+                <default>false</default>
+                <label>Customer informed on the swap procedure</label>
+            </value>
+            <value>
+                <fullName>NACH cancellation accepted</fullName>
+                <default>false</default>
+                <label>NACH cancellation accepted</label>
+            </value>
+            <value>
+                <fullName>NACH Cancellation rejected NPA case</fullName>
+                <default>false</default>
+                <label>NACH Cancellation rejected NPA case</label>
+            </value>
+            <value>
+                <fullName>Encore entry don.</fullName>
+                <default>false</default>
+                <label>Encore entry don.</label>
+            </value>
+            <value>
+                <fullName>Rejected. Mail sent to customer.</fullName>
+                <default>false</default>
+                <label>Rejected. Mail sent to customer.</label>
+            </value>
+            <value>
+                <fullName>Encore entry done.</fullName>
+                <default>false</default>
+                <label>Encore entry done.</label>
+            </value>
+            <value>
+                <fullName>FD dispatched</fullName>
+                <default>false</default>
+                <label>FD dispatched</label>
+            </value>
+            <value>
+                <fullName>FD not dispatched</fullName>
+                <default>false</default>
+                <label>FD not dispatched</label>
+            </value>
+            <value>
+                <fullName>Internal Request-Legal Team</fullName>
+                <default>false</default>
+                <label>Internal Request-Legal Team</label>
+            </value>
+            <value>
+                <fullName>Case rejected. Eligibility not met</fullName>
+                <default>false</default>
+                <label>Case rejected. Eligibility not met</label>
+            </value>
+            <value>
+                <fullName>Case approved. Sanction letter shared with customer</fullName>
+                <default>false</default>
+                <label>Case approved. Sanction letter shared with customer</label>
+            </value>
+            <value>
+                <fullName>Case on hold. Documents required from customer</fullName>
+                <default>false</default>
+                <label>Case on hold. Documents required from customer</label>
+            </value>
+            <value>
+                <fullName>Application Withdrawn</fullName>
+                <default>false</default>
+                <label>Application Withdrawn</label>
+            </value>
+            <value>
+                <fullName>Charges adjusted</fullName>
+                <default>false</default>
+                <label>Charges adjusted</label>
+            </value>
+            <value>
+                <fullName>Amount consumed in EMI</fullName>
+                <default>false</default>
+                <label>Amount consumed in EMI</label>
+            </value>
+            <value>
+                <fullName>No amount available In excess</fullName>
+                <default>false</default>
+                <label>No amount available In excess</label>
+            </value>
+            <value>
+                <fullName>NACH cancellation rejected</fullName>
+                <default>false</default>
+                <label>NACH cancellation rejected</label>
+            </value>
+            <value>
+                <fullName>House already constructed</fullName>
+                <default>false</default>
+                <label>House already constructed</label>
+            </value>
+            <value>
+                <fullName>House will not be constructed</fullName>
+                <default>false</default>
+                <label>House will not be constructed</label>
+            </value>
+            <value>
+                <fullName>House is under construction</fullName>
+                <default>false</default>
+                <label>House is under construction</label>
+            </value>
+            <value>
+                <fullName>Cheque Not Handed Over in time</fullName>
+                <default>false</default>
+                <label>Cheque Not Handed Over in time</label>
+            </value>
+            <value>
+                <fullName>Mis selling insurance</fullName>
+                <default>false</default>
+                <label>Mis selling insurance</label>
+            </value>
+            <value>
+                <fullName>Disbursement through chq instead of NEFT</fullName>
+                <default>false</default>
+                <label>Disbursement through chq instead of NEFT</label>
+            </value>
+            <value>
+                <fullName>Mismatch in amount disbursed</fullName>
+                <default>false</default>
+                <label>Mismatch in amount disbursed</label>
+            </value>
+            <value>
+                <fullName>Requested Amount Not Sanctioned</fullName>
+                <default>false</default>
+                <label>Requested Amount Not Sanctioned</label>
+            </value>
+            <value>
+                <fullName>ROI Not Given as Committed</fullName>
+                <default>false</default>
+                <label>ROI Not Given as Committed</label>
+            </value>
+            <value>
+                <fullName>Staff Misbehaviour</fullName>
+                <default>false</default>
+                <label>Staff Misbehaviour</label>
+            </value>
+            <value>
+                <fullName>No clarity on documents required</fullName>
+                <default>false</default>
+                <label>No clarity on documents required</label>
+            </value>
+            <value>
+                <fullName>Call not picked</fullName>
+                <default>false</default>
+                <label>Call not picked</label>
+            </value>
+            <value>
+                <fullName>Wrong number</fullName>
+                <default>false</default>
+                <label>Wrong number</label>
+            </value>
+            <value>
+                <fullName>Payment made through NEFT</fullName>
+                <default>false</default>
+                <label>Payment made through NEFT</label>
+            </value>
+            <value>
+                <fullName>Cheque printed and dispatched to branch</fullName>
+                <default>false</default>
+                <label>Cheque printed and dispatched to branch</label>
+            </value>
+            <value>
+                <fullName>Request received after scheme date</fullName>
+                <default>false</default>
+                <label>Request received after scheme date</label>
+            </value>
+            <value>
+                <fullName>Rejected as the scheme date has passed</fullName>
+                <default>false</default>
+                <label>Rejected as the scheme date has passed</label>
+            </value>
+            <value>
+                <fullName>Report received</fullName>
+                <default>false</default>
+                <label>Report received</label>
+            </value>
+            <value>
+                <fullName>Report not received. Mail attached for follow up</fullName>
+                <default>false</default>
+                <label>Report not received. Mail attached for follow up</label>
+            </value>
+            <value>
+                <fullName>Customer contacted. Checker done</fullName>
+                <default>false</default>
+                <label>Customer contacted. Checker done</label>
+            </value>
+            <value>
+                <fullName>Duplicate request</fullName>
+                <default>false</default>
+                <label>Duplicate request</label>
+            </value>
+            <value>
+                <fullName>Customer not contacted. Freeze marked</fullName>
+                <default>false</default>
+                <label>Customer not contacted. Freeze marked</label>
+            </value>
+            <value>
+                <fullName>STR to be reported</fullName>
+                <default>false</default>
+                <label>STR to be reported</label>
+            </value>
+            <value>
+                <fullName>STR not to be reported</fullName>
+                <default>false</default>
+                <label>STR not to be reported</label>
+            </value>
+            <value>
+                <fullName>Rate Changed in Kastle</fullName>
+                <default>false</default>
+                <label>Rate Changed in Kastle</label>
+            </value>
+            <value>
+                <fullName>Rate Not Changed. Customer Informed</fullName>
+                <default>false</default>
+                <label>Rate Not Changed. Customer Informed</label>
+            </value>
+            <value>
+                <fullName>Customer contacted and disbursement intended date updated</fullName>
+                <default>false</default>
+                <label>Customer contacted and disbursement intended date updated</label>
+            </value>
+            <value>
+                <fullName>Customer has availed a loan elsewhere</fullName>
+                <default>false</default>
+                <label>Customer has availed a loan elsewhere</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Switched off</fullName>
+                <default>false</default>
+                <label>Not Contactable-Switched off</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Ringing</fullName>
+                <default>false</default>
+                <label>Not Contactable-Ringing</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Incorrect number</fullName>
+                <default>false</default>
+                <label>Not Contactable-Incorrect number</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Call later</fullName>
+                <default>false</default>
+                <label>Not Contactable-Call later</label>
+            </value>
+            <value>
+                <fullName>Not Contactable-Not reachable</fullName>
+                <default>false</default>
+                <label>Not Contactable-Not reachable</label>
+            </value>
+            <value>
+                <fullName>Call back by ASM</fullName>
+                <default>false</default>
+                <label>Call back by ASM</label>
+            </value>
+            <value>
+                <fullName>Intended disbursement date updated</fullName>
+                <default>false</default>
+                <label>Intended disbursement date updated</label>
+            </value>
+            <value>
+                <fullName>Customer not agreeable with Sanction conditions</fullName>
+                <default>false</default>
+                <label>Customer not agreeable with Sanction conditions</label>
+            </value>
+            <value>
+                <fullName>Fraudulent activity suspected. STR to be reported</fullName>
+                <default>false</default>
+                <label>Fraudulent activity suspected. STR to be reported</label>
+            </value>
+            <value>
+                <fullName>No fraud suspected.STR not to be reported</fullName>
+                <default>false</default>
+                <label>No fraud suspected.STR not to be reported</label>
+            </value>
+            <value>
+                <fullName>Application ID shared</fullName>
+                <default>false</default>
+                <label>Application ID shared</label>
+            </value>
+            <value>
+                <fullName>Discrepant Application</fullName>
+                <default>false</default>
+                <label>Discrepant Application</label>
+            </value>
+            <value>
+                <fullName>Form Not Submitted</fullName>
+                <default>false</default>
+                <label>Form Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Customer not eligible</fullName>
+                <default>false</default>
+                <label>Customer not eligible</label>
+            </value>
+            <value>
+                <fullName>New Follow up SR raised</fullName>
+                <default>false</default>
+                <label>New Follow up SR raised</label>
+            </value>
+            <value>
+                <fullName>MIG case disqualified</fullName>
+                <default>false</default>
+                <label>MIG case disqualified</label>
+            </value>
+            <value>
+                <fullName>Subsidy awaited</fullName>
+                <default>false</default>
+                <label>Subsidy awaited</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Fixed Rate Loan</fullName>
+                <default>false</default>
+                <label>Fixed Rate Loan</label>
+            </value>
+            <value>
+                <fullName>Status of Closure Updated</fullName>
+                <default>false</default>
+                <label>Status of Closure Updated</label>
+            </value>
+            <value>
+                <fullName>Payment options Informed</fullName>
+                <default>false</default>
+                <label>Payment options Informed</label>
+            </value>
+            <value>
+                <fullName>Branch remindded of Loan Closure</fullName>
+                <default>false</default>
+                <label>Branch remindded of Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Status of Paper updated</fullName>
+                <default>false</default>
+                <label>Status of Paper updated</label>
+            </value>
+            <value>
+                <fullName>Incomplete details</fullName>
+                <default>false</default>
+                <label>Incomplete details</label>
+            </value>
+            <value>
+                <fullName>FD Receipt at Branch. Customer Informed.</fullName>
+                <default>false</default>
+                <label>FD Receipt at Branch. Customer Informed.</label>
+            </value>
+            <value>
+                <fullName>FD handed over to Broker</fullName>
+                <default>false</default>
+                <label>FD handed over to Broker</label>
+            </value>
+            <value>
+                <fullName>Query_No_LAN_Unregd_Email</fullName>
+                <default>false</default>
+                <label>Query_No_LAN_Unregd_Email</label>
+            </value>
+            <value>
+                <fullName>RCU declined/Customer dropped out/Rejected case</fullName>
+                <default>false</default>
+                <label>RCU declined/Customer dropped out/Rejected case</label>
+            </value>
+            <value>
+                <fullName>Customer not interested due to legal/technical issue</fullName>
+                <default>false</default>
+                <label>Customer not interested due to legal/technical issue</label>
+            </value>
+            <value>
+                <fullName>This is bounce transactions, hence STR not to be reported</fullName>
+                <default>false</default>
+                <label>This is bounce transactions, hence STR not to be reported</label>
+            </value>
+            <value>
+                <fullName>Swap done and Charge adjusted</fullName>
+                <default>false</default>
+                <label>Swap done and Charge adjusted</label>
+            </value>
+            <value>
+                <fullName>Swap done and charge not paid by the customer</fullName>
+                <default>false</default>
+                <label>Swap done and charge not paid by the customer</label>
+            </value>
+            <value>
+                <fullName>Swap done and charges waived</fullName>
+                <default>false</default>
+                <label>Swap done and charges waived</label>
+            </value>
+            <value>
+                <fullName>Swap request rejected. Customer informed</fullName>
+                <default>false</default>
+                <label>Swap request rejected. Customer informed</label>
+            </value>
+            <value>
+                <fullName>90 days validity expired</fullName>
+                <default>false</default>
+                <label>90 days validity expired</label>
+            </value>
+            <value>
+                <fullName>Part payment applied in Kastle</fullName>
+                <default>false</default>
+                <label>Part payment applied in Kastle</label>
+            </value>
+            <value>
+                <fullName>Part payment rejected. Customer informed</fullName>
+                <default>false</default>
+                <label>Part payment rejected. Customer informed</label>
+            </value>
+            <value>
+                <fullName>Part payment rejected due to technical issue. Customer informed</fullName>
+                <default>false</default>
+                <label>Part payment rejected due to technical issue. Customer informed</label>
+            </value>
+            <value>
+                <fullName>Part payment pending for customer confirmation</fullName>
+                <default>false</default>
+                <label>Part payment pending for customer confirmation</label>
+            </value>
+            <value>
+                <fullName>No Answer to our calls</fullName>
+                <default>false</default>
+                <label>No Answer to our calls</label>
+            </value>
+            <value>
+                <fullName>Customer Contacted but not interested</fullName>
+                <default>false</default>
+                <label>Customer Contacted but not interested</label>
+            </value>
+            <value>
+                <fullName>Customer Contacted and interested</fullName>
+                <default>false</default>
+                <label>Customer Contacted and interested</label>
+            </value>
+            <value>
+                <fullName>Customer Retained and rate drop offered</fullName>
+                <default>false</default>
+                <label>Customer Retained and rate drop offered</label>
+            </value>
+            <value>
+                <fullName>LOD issued for own records</fullName>
+                <default>false</default>
+                <label>LOD issued for own records</label>
+            </value>
+            <value>
+                <fullName>Customer not retained and LOD issued</fullName>
+                <default>false</default>
+                <label>Customer not retained and LOD issued</label>
+            </value>
+            <value>
+                <fullName>RTGS request processed</fullName>
+                <default>false</default>
+                <label>RTGS request processed</label>
+            </value>
+            <value>
+                <fullName>RTGS request rejected</fullName>
+                <default>false</default>
+                <label>RTGS request rejected</label>
+            </value>
+            <value>
+                <fullName>ASM call back required</fullName>
+                <default>false</default>
+                <label>ASM call back required</label>
+            </value>
+            <value>
+                <fullName>ASM call back not required</fullName>
+                <default>false</default>
+                <label>ASM call back not required</label>
+            </value>
+            <value>
+                <fullName>All information shared</fullName>
+                <default>false</default>
+                <label>All information shared</label>
+            </value>
+            <value>
+                <fullName>Customer has asked for a call back</fullName>
+                <default>false</default>
+                <label>Customer has asked for a call back</label>
+            </value>
+            <value>
+                <fullName>Cheque cleared</fullName>
+                <default>false</default>
+                <label>Cheque cleared</label>
+            </value>
+            <value>
+                <fullName>Cheque on hold</fullName>
+                <default>false</default>
+                <label>Cheque on hold</label>
+            </value>
+            <value>
+                <fullName>Cheque cancelled</fullName>
+                <default>false</default>
+                <label>Cheque cancelled</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Policy Clarified</fullName>
+                <default>false</default>
+                <label>Policy Clarified</label>
+            </value>
+            <value>
+                <fullName>Customer not contactable after 3 attempts</fullName>
+                <default>false</default>
+                <label>Customer not contactable after 3 attempts</label>
+            </value>
+            <value>
+                <fullName>Disbursement Cancelled</fullName>
+                <default>false</default>
+                <label>Disbursement Cancelled</label>
+            </value>
+            <value>
+                <fullName>Approval received Cheque released</fullName>
+                <default>false</default>
+                <label>Approval received Cheque released</label>
+            </value>
+            <value>
+                <fullName>Approval denied Cheque release on hold</fullName>
+                <default>false</default>
+                <label>Approval denied Cheque release on hold</label>
+            </value>
+            <value>
+                <fullName>Cheque is cancelled</fullName>
+                <default>false</default>
+                <label>Cheque is cancelled</label>
+            </value>
+            <value>
+                <fullName>Retained</fullName>
+                <default>false</default>
+                <label>Retained</label>
+            </value>
+            <value>
+                <fullName>Customer closing from Own Funds/ Issue FC</fullName>
+                <default>false</default>
+                <label>Customer closing from Own Funds/ Issue FC</label>
+            </value>
+            <value>
+                <fullName>Not retained/BBH inputs required</fullName>
+                <default>false</default>
+                <label>Not retained/BBH inputs required</label>
+            </value>
+            <value>
+                <fullName>Customer requires top-up</fullName>
+                <default>false</default>
+                <label>Customer requires top-up</label>
+            </value>
+            <value>
+                <fullName>BBH remarks pending</fullName>
+                <default>false</default>
+                <label>BBH remarks pending</label>
+            </value>
+            <value>
+                <fullName>Collections Feedback required</fullName>
+                <default>false</default>
+                <label>Collections Feedback required</label>
+            </value>
+            <value>
+                <fullName>Not retained. FC to be issued</fullName>
+                <default>false</default>
+                <label>Not retained. FC to be issued</label>
+            </value>
+            <value>
+                <fullName>Collections remarks pending</fullName>
+                <default>false</default>
+                <label>Collections remarks pending</label>
+            </value>
+            <value>
+                <fullName>Not contactable customer</fullName>
+                <default>false</default>
+                <label>Not contactable customer</label>
+            </value>
+            <value>
+                <fullName>Not retained FC issued</fullName>
+                <default>false</default>
+                <label>Not retained FC issued</label>
+            </value>
+            <value>
+                <fullName>Customer has not visited the branch FC issuance pending</fullName>
+                <default>false</default>
+                <label>Customer has not visited the branch FC issuance pending</label>
+            </value>
+            <value>
+                <fullName>KYC Rejected</fullName>
+                <default>false</default>
+                <label>KYC Rejected</label>
+            </value>
+            <value>
+                <fullName>KYC Updated</fullName>
+                <default>false</default>
+                <label>KYC Updated</label>
+            </value>
+            <value>
+                <fullName>Amount updated</fullName>
+                <default>false</default>
+                <label>Amount updated</label>
+            </value>
+            <value>
+                <fullName>Amount not updated</fullName>
+                <default>false</default>
+                <label>Amount not updated</label>
+            </value>
+            <value>
+                <fullName>Case Approved, Rate Offered</fullName>
+                <default>false</default>
+                <label>Case Approved, Rate Offered</label>
+            </value>
+            <value>
+                <fullName>Case Rejected, Customer Informed</fullName>
+                <default>false</default>
+                <label>Case Rejected, Customer Informed</label>
+            </value>
+            <value>
+                <fullName>Funds Utilised</fullName>
+                <default>false</default>
+                <label>Funds Utilised</label>
+            </value>
+            <value>
+                <fullName>Loan Cancelled</fullName>
+                <default>false</default>
+                <label>Loan Cancelled</label>
+            </value>
+            <value>
+                <fullName>Fund Utilised, Loan Cancelled</fullName>
+                <default>false</default>
+                <label>Fund Utilised, Loan Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

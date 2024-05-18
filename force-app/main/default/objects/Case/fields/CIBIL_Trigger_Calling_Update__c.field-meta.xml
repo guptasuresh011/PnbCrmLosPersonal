@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CIBIL_Trigger_Calling_Update__c</fullName>
+    <externalId>false</externalId>
+    <label>CIBIL Trigger Calling Update</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Balance Transfer</fullName>
+                <default>false</default>
+                <label>Balance Transfer</label>
+            </value>
+            <value>
+                <fullName>Delinquent</fullName>
+                <default>false</default>
+                <label>Delinquent</label>
+            </value>
+            <value>
+                <fullName>Enhancement/New Loan</fullName>
+                <default>false</default>
+                <label>Enhancement/New Loan</label>
+            </value>
+            <value>
+                <fullName>Auto Top Up</fullName>
+                <default>false</default>
+                <label>Auto Top Up</label>
+            </value>
+            <value>
+                <fullName>No Issues</fullName>
+                <default>false</default>
+                <label>No Issues</label>
+            </value>
+            <value>
+                <fullName>Repricing</fullName>
+                <default>false</default>
+                <label>Repricing</label>
+            </value>
+            <value>
+                <fullName>Repricing + New Loan</fullName>
+                <default>false</default>
+                <label>Repricing + New Loan</label>
+            </value>
+            <value>
+                <fullName>Sale Of Property</fullName>
+                <default>false</default>
+                <label>Sale Of Property</label>
+            </value>
+            <value>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+                <label>Service Issue</label>
+            </value>
+            <value>
+                <fullName>Adequate Funds</fullName>
+                <default>false</default>
+                <label>Adequate Funds</label>
+            </value>
+            <value>
+                <fullName>Language Issue</fullName>
+                <default>false</default>
+                <label>Language Issue</label>
+            </value>
+            <value>
+                <fullName>Not Contactable 1</fullName>
+                <default>false</default>
+                <label>Not Contactable 1</label>
+            </value>
+            <value>
+                <fullName>Not Contactable 2</fullName>
+                <default>false</default>
+                <label>Not Contactable 2</label>
+            </value>
+            <value>
+                <fullName>Not Contactable 3</fullName>
+                <default>false</default>
+                <label>Not Contactable 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Source__c</fullName>
+    <description>A sub-category or source of a customer complaint or request.</description>
+    <externalId>false</externalId>
+    <label>Sub Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regulators</fullName>
+                <default>false</default>
+                <label>Regulators</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

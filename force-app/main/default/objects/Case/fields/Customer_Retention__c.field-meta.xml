@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Retention__c</fullName>
+    <description>Notes related to customer retention efforts.</description>
+    <externalId>false</externalId>
+    <label>Retention Remarks</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Retained With ROI</fullName>
+                <default>false</default>
+                <label>Customer Retained With ROI</label>
+            </value>
+            <value>
+                <fullName>Customer Not Looking For BT</fullName>
+                <default>false</default>
+                <label>Customer Not Looking For BT</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 1</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 1</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 2</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 2</label>
+            </value>
+            <value>
+                <fullName>Not Contactable - Attempt 3</fullName>
+                <default>false</default>
+                <label>Not Contactable - Attempt 3</label>
+            </value>
+            <value>
+                <fullName>Not Retained</fullName>
+                <default>false</default>
+                <label>Not Retained</label>
+            </value>
+            <value>
+                <fullName>Retained by - top up followup</fullName>
+                <default>false</default>
+                <label>Retained by - top up followup</label>
+            </value>
+            <value>
+                <fullName>Customer Retained</fullName>
+                <default>false</default>
+                <label>Customer Retained</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

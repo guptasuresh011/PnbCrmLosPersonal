@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_By__c</fullName>
+    <description>If status is closed then the value of Closed By will be equal to Last Modified By</description>
+    <externalId>false</externalId>
+    <formula>If ( ISPICKVAL( Status , &apos;Closed&apos;), ( LastModifiedBy.FirstName+ &apos; &apos; + LastModifiedBy.LastName ), Null)</formula>
+    <label>Closed By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

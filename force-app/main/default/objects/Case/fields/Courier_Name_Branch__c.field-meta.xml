@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Courier_Name_Branch__c</fullName>
+    <description>Name of the courier company and its branch.</description>
+    <externalId>false</externalId>
+    <label>Courier Name(Branch)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue Dart</fullName>
+                <default>false</default>
+                <label>BLUE DART</label>
+            </value>
+            <value>
+                <fullName>By VAN</fullName>
+                <default>false</default>
+                <label>By VAN</label>
+            </value>
+            <value>
+                <fullName>DTDC</fullName>
+                <default>false</default>
+                <label>DTDC</label>
+            </value>
+            <value>
+                <fullName>FRANCH EXPRESS COURIER</fullName>
+                <default>false</default>
+                <label>FRANCH EXPRESS COURIER</label>
+            </value>
+            <value>
+                <fullName>INDIA POST</fullName>
+                <default>false</default>
+                <label>INDIA POST</label>
+            </value>
+            <value>
+                <fullName>PROFESSIONAL</fullName>
+                <default>false</default>
+                <label>PROFESSIONAL</label>
+            </value>
+            <value>
+                <fullName>SHREE MARUTI COURIER SERVICES</fullName>
+                <default>false</default>
+                <label>SHREE MARUTI COURIER SERVICES</label>
+            </value>
+            <value>
+                <fullName>Trackon</fullName>
+                <default>false</default>
+                <label>Trackon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

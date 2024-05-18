@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_NPS_Generated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if a Net Promoter Score (NPS) has been generated.</description>
+    <externalId>false</externalId>
+    <label>Is NPS Generated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

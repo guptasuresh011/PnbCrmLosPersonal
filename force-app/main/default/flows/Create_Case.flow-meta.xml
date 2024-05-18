@@ -4,8 +4,8 @@
     <assignments>
         <name>Assign_case_status_for_Complaint</name>
         <label>Assign case status for Complaint</label>
-        <locationX>6969</locationX>
-        <locationY>1706</locationY>
+        <locationX>6925</locationX>
+        <locationY>4562</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Status</assignToReference>
             <operator>Assign</operator>
@@ -41,8 +41,8 @@
     <assignments>
         <name>Assign_for_SMS2</name>
         <label>Assign for SMS2</label>
-        <locationX>7695</locationX>
-        <locationY>3128</locationY>
+        <locationX>8003</locationX>
+        <locationY>5726</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -71,8 +71,8 @@
     <assignments>
         <name>Assign_for_SMS_1</name>
         <label>Assign for SMS 1</label>
-        <locationX>7695</locationX>
-        <locationY>2912</locationY>
+        <locationX>8003</locationX>
+        <locationY>5510</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -101,8 +101,8 @@
     <assignments>
         <name>Assign_Insurance_Policy_Related_values_to_case_object</name>
         <label>Assign Insurance Policy Related values to case object</label>
-        <locationX>12282</locationX>
-        <locationY>1814</locationY>
+        <locationX>3108</locationX>
+        <locationY>2822</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Insurer_Name__c</assignToReference>
             <operator>Assign</operator>
@@ -124,8 +124,8 @@
     <assignments>
         <name>Assign_Params</name>
         <label>Assign Params</label>
-        <locationX>5858</locationX>
-        <locationY>6548</locationY>
+        <locationX>6166</locationX>
+        <locationY>8954</locationY>
         <assignmentItems>
             <assignToReference>calloutEvent.Mobile_No__c</assignToReference>
             <operator>Assign</operator>
@@ -165,8 +165,8 @@
     <assignments>
         <name>Assign_Queue_As_Open</name>
         <label>Assign Queue As Open</label>
-        <locationX>7233</locationX>
-        <locationY>1706</locationY>
+        <locationX>7497</locationX>
+        <locationY>4262</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Status</assignToReference>
             <operator>Assign</operator>
@@ -203,8 +203,8 @@
     <assignments>
         <name>Assign_SMS_Variables</name>
         <label>Assign SMS Variables</label>
-        <locationX>7167</locationX>
-        <locationY>2912</locationY>
+        <locationX>7475</locationX>
+        <locationY>5510</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Mobile_No__c</assignToReference>
             <operator>Assign</operator>
@@ -233,7 +233,7 @@
     <assignments>
         <name>Assign_Status_As_Resolved_and_set_Count</name>
         <label>Assign Status As Resolved and set Count</label>
-        <locationX>13030</locationX>
+        <locationX>3108</locationX>
         <locationY>1706</locationY>
         <assignmentItems>
             <assignToReference>count</assignToReference>
@@ -270,7 +270,7 @@
     <assignments>
         <name>Assign_to_duplicate_records</name>
         <label>Assign to duplicate records</label>
-        <locationX>12766</locationX>
+        <locationX>2976</locationX>
         <locationY>998</locationY>
         <assignmentItems>
             <assignToReference>duplicateCaseRecords</assignToReference>
@@ -286,7 +286,7 @@
     <assignments>
         <name>assign_values_to_sobject</name>
         <label>assign values to sobject</label>
-        <locationX>5858</locationX>
+        <locationX>2272</locationX>
         <locationY>458</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Interaction_Category__c</assignToReference>
@@ -387,14 +387,15 @@
             </value>
         </assignmentItems>
         <connector>
+            <isGoTo>true</isGoTo>
             <targetReference>Service_Request_Sub_Flow_Decision</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Copy_1_of_Assign_for_SMS2</name>
         <label>Copy 1 of Assign for SMS2</label>
-        <locationX>5979</locationX>
-        <locationY>4676</locationY>
+        <locationX>6287</locationX>
+        <locationY>7082</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -423,8 +424,8 @@
     <assignments>
         <name>Copy_1_of_Assign_for_SMS_1</name>
         <label>Copy 1 of Assign for SMS 1</label>
-        <locationX>5979</locationX>
-        <locationY>4460</locationY>
+        <locationX>6287</locationX>
+        <locationY>6866</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -453,8 +454,8 @@
     <assignments>
         <name>Copy_1_of_Assign_Params</name>
         <label>Copy 1 of Assign Params</label>
-        <locationX>6375</locationX>
-        <locationY>5624</locationY>
+        <locationX>6683</locationX>
+        <locationY>8030</locationY>
         <assignmentItems>
             <assignToReference>calloutEvent.Mobile_No__c</assignToReference>
             <operator>Assign</operator>
@@ -494,8 +495,8 @@
     <assignments>
         <name>Copy_1_of_Set_Child_Appeal_Case</name>
         <label>Copy 1 of Set Child Appeal Case</label>
-        <locationX>4549</locationX>
-        <locationY>2030</locationY>
+        <locationX>4857</locationX>
+        <locationY>4586</locationY>
         <assignmentItems>
             <assignToReference>caseObject.RecordTypeId</assignToReference>
             <operator>Assign</operator>
@@ -552,8 +553,8 @@
     <assignments>
         <name>Copy_1_of_SMS_to_Third_Mobile</name>
         <label>Copy 1 of SMS to Third Mobile</label>
-        <locationX>5979</locationX>
-        <locationY>4892</locationY>
+        <locationX>6287</locationX>
+        <locationY>7298</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -582,7 +583,7 @@
     <assignments>
         <name>Duplicate_case_Creation_Time</name>
         <label>Duplicate case Creation Time</label>
-        <locationX>12898</locationX>
+        <locationX>3108</locationX>
         <locationY>782</locationY>
         <assignmentItems>
             <assignToReference>dedupTime</assignToReference>
@@ -605,7 +606,7 @@
     <assignments>
         <name>Duplicate_Record_Count</name>
         <label>Duplicate Record Count</label>
-        <locationX>12678</locationX>
+        <locationX>2888</locationX>
         <locationY>1274</locationY>
         <assignmentItems>
             <assignToReference>totalDuplicateCases</assignToReference>
@@ -621,8 +622,8 @@
     <assignments>
         <name>LoanDepositAssignment</name>
         <label>LoanDepositAssignment</label>
-        <locationX>12414</locationX>
-        <locationY>2306</locationY>
+        <locationX>3108</locationX>
+        <locationY>2906</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Loan_Account__c</assignToReference>
             <operator>Assign</operator>
@@ -644,8 +645,8 @@
     <assignments>
         <name>Set_Child_Appeal_Case</name>
         <label>Set Child Appeal Case</label>
-        <locationX>5077</locationX>
-        <locationY>2030</locationY>
+        <locationX>5385</locationX>
+        <locationY>4586</locationY>
         <assignmentItems>
             <assignToReference>caseObject</assignToReference>
             <operator>Assign</operator>
@@ -667,8 +668,8 @@
     <assignments>
         <name>Set_Complaint_Description</name>
         <label>Set Complaint Description</label>
-        <locationX>5858</locationX>
-        <locationY>1382</locationY>
+        <locationX>6166</locationX>
+        <locationY>3938</locationY>
         <assignmentItems>
             <assignToReference>caseObject.Description</assignToReference>
             <operator>Assign</operator>
@@ -683,8 +684,8 @@
     <assignments>
         <name>SMS_to_Third_Mobile</name>
         <label>SMS to Third Mobile</label>
-        <locationX>7695</locationX>
-        <locationY>3344</locationY>
+        <locationX>8003</locationX>
+        <locationY>5942</locationY>
         <assignmentItems>
             <assignToReference>SMSCalloutEvent.Record_Id__c</assignToReference>
             <operator>Assign</operator>
@@ -737,10 +738,9 @@
     <decisions>
         <name>Case_Master_Validation</name>
         <label>Case Master Validation</label>
-        <locationX>12414</locationX>
-        <locationY>2414</locationY>
+        <locationX>3108</locationX>
+        <locationY>3014</locationY>
         <defaultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>Service_Request_Sub_Flow_Decision</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
@@ -854,8 +854,8 @@
     <decisions>
         <name>Check_Case_Record_Type</name>
         <label>Check Case Record Type</label>
-        <locationX>5858</locationX>
-        <locationY>1490</locationY>
+        <locationX>6166</locationX>
+        <locationY>4046</locationY>
         <defaultConnector>
             <targetReference>Check_Record_Type</targetReference>
         </defaultConnector>
@@ -879,8 +879,8 @@
     <decisions>
         <name>Check_Case_Type</name>
         <label>Check Case Type</label>
-        <locationX>12414</locationX>
-        <locationY>2006</locationY>
+        <locationX>3108</locationX>
+        <locationY>2606</locationY>
         <defaultConnector>
             <targetReference>LoanDepositAssignment</targetReference>
         </defaultConnector>
@@ -904,10 +904,9 @@
     <decisions>
         <name>Check_Complaint_Source</name>
         <label>Check Complaint Source</label>
-        <locationX>6573</locationX>
-        <locationY>1706</locationY>
+        <locationX>6925</locationX>
+        <locationY>4262</locationY>
         <defaultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>Assign_case_status_for_Complaint</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
@@ -958,7 +957,7 @@
     <decisions>
         <name>Check_Duplicates_is_Null</name>
         <label>Check Duplicates is Null</label>
-        <locationX>12942</locationX>
+        <locationX>3020</locationX>
         <locationY>1898</locationY>
         <defaultConnector>
             <targetReference>Update_Duplicate_Cases_as_resolved</targetReference>
@@ -975,7 +974,6 @@
                 </rightValue>
             </conditions>
             <connector>
-                <isGoTo>true</isGoTo>
                 <targetReference>Copy_1_of_Take_Input_Screen</targetReference>
             </connector>
             <label>Is null</label>
@@ -984,8 +982,8 @@
     <decisions>
         <name>Check_for_Appeal_Case_Updation</name>
         <label>Check for Appeal Case Updation</label>
-        <locationX>4813</locationX>
-        <locationY>1922</locationY>
+        <locationX>5121</locationX>
+        <locationY>4478</locationY>
         <defaultConnector>
             <targetReference>Set_Child_Appeal_Case</targetReference>
         </defaultConnector>
@@ -1009,8 +1007,8 @@
     <decisions>
         <name>Check_for_complaint_record_type</name>
         <label>Check for complaint record type</label>
-        <locationX>6375</locationX>
-        <locationY>4028</locationY>
+        <locationX>6683</locationX>
+        <locationY>6434</locationY>
         <defaultConnector>
             <targetReference>Complaint_Case_Screen</targetReference>
         </defaultConnector>
@@ -1034,7 +1032,7 @@
     <decisions>
         <name>Check_for_Duplicate_Record</name>
         <label>Check for Duplicate Record</label>
-        <locationX>12678</locationX>
+        <locationX>2888</locationX>
         <locationY>1382</locationY>
         <defaultConnector>
             <targetReference>Duplicate_Case</targetReference>
@@ -1059,8 +1057,8 @@
     <decisions>
         <name>Check_for_Existing_Case</name>
         <label>Check for Existing Case</label>
-        <locationX>6903</locationX>
-        <locationY>2372</locationY>
+        <locationX>7211</locationX>
+        <locationY>4970</locationY>
         <defaultConnector>
             <targetReference>Check_if_Query</targetReference>
         </defaultConnector>
@@ -1084,8 +1082,8 @@
     <decisions>
         <name>Check_for_Loan_or_Deposit</name>
         <label>Check for Loan or Deposit</label>
-        <locationX>6375</locationX>
-        <locationY>3488</locationY>
+        <locationX>6683</locationX>
+        <locationY>6086</locationY>
         <defaultConnector>
             <targetReference>Copy_1_of_Update_Case</targetReference>
         </defaultConnector>
@@ -1116,8 +1114,8 @@
     <decisions>
         <name>Check_for_query_category</name>
         <label>Check for query category</label>
-        <locationX>6001</locationX>
-        <locationY>2804</locationY>
+        <locationX>6309</locationX>
+        <locationY>5402</locationY>
         <defaultConnector>
             <targetReference>Check_if_email_message_found</targetReference>
         </defaultConnector>
@@ -1148,10 +1146,9 @@
     <decisions>
         <name>Check_for_Sub_Category</name>
         <label>Check for Sub Category</label>
-        <locationX>1018</locationX>
-        <locationY>674</locationY>
+        <locationX>1634</locationX>
+        <locationY>3230</locationY>
         <defaultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>SelectRightSubCategory</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
@@ -1209,7 +1206,6 @@
                 </rightValue>
             </conditions>
             <connector>
-                <isGoTo>true</isGoTo>
                 <targetReference>SelectRightSubCategory</targetReference>
             </connector>
             <label>Check for Already Tagged Deposit</label>
@@ -1225,6 +1221,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Centralized_Refund_Screen</targetReference>
             </connector>
             <label>LoanAccount with Refund Loan Selected</label>
@@ -1248,8 +1245,8 @@
     <decisions>
         <name>Check_if_email_message_found</name>
         <label>Check if email message found</label>
-        <locationX>6133</locationX>
-        <locationY>2912</locationY>
+        <locationX>6441</locationX>
+        <locationY>5510</locationY>
         <defaultConnector>
             <targetReference>Copy_2_of_Show_Default_Error</targetReference>
         </defaultConnector>
@@ -1273,8 +1270,8 @@
     <decisions>
         <name>Check_if_Query</name>
         <label>Check if Query</label>
-        <locationX>7431</locationX>
-        <locationY>2480</locationY>
+        <locationX>7739</locationX>
+        <locationY>5078</locationY>
         <defaultConnector>
             <targetReference>Create_Complaint_Case</targetReference>
         </defaultConnector>
@@ -1298,8 +1295,8 @@
     <decisions>
         <name>Check_if_Record_is_Account_or_Case</name>
         <label>Check if Record is Account or Case</label>
-        <locationX>8982</locationX>
-        <locationY>674</locationY>
+        <locationX>9510</locationX>
+        <locationY>3230</locationY>
         <defaultConnector>
             <targetReference>Forgot_User_Id_Error_Screen</targetReference>
         </defaultConnector>
@@ -1323,10 +1320,9 @@
     <decisions>
         <name>Check_Record_Id</name>
         <label>Check Record Id</label>
-        <locationX>11435</locationX>
+        <locationX>3108</locationX>
         <locationY>134</locationY>
         <defaultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>Copy_1_of_Take_Input_Screen</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
@@ -1349,8 +1345,8 @@
     <decisions>
         <name>Check_Record_Type</name>
         <label>Check Record Type</label>
-        <locationX>6903</locationX>
-        <locationY>1598</locationY>
+        <locationX>7211</locationX>
+        <locationY>4154</locationY>
         <defaultConnector>
             <targetReference>Assign_Queue_As_Open</targetReference>
         </defaultConnector>
@@ -1381,6 +1377,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Assign_case_status_for_Complaint</targetReference>
             </connector>
             <label>Service Request Record Type</label>
@@ -1389,8 +1386,8 @@
     <decisions>
         <name>Complaint_Category</name>
         <label>Complaint Category</label>
-        <locationX>12414</locationX>
-        <locationY>1598</locationY>
+        <locationX>3240</locationX>
+        <locationY>2606</locationY>
         <defaultConnector>
             <targetReference>Check_Case_Type</targetReference>
         </defaultConnector>
@@ -1414,8 +1411,8 @@
     <decisions>
         <name>Copy_1_of_Check_if_Query</name>
         <label>Copy 1 of Check if Query</label>
-        <locationX>6375</locationX>
-        <locationY>2480</locationY>
+        <locationX>6683</locationX>
+        <locationY>5078</locationY>
         <defaultConnector>
             <targetReference>Check_for_Loan_or_Deposit</targetReference>
         </defaultConnector>
@@ -1439,7 +1436,7 @@
     <decisions>
         <name>Description_check</name>
         <label>Description check</label>
-        <locationX>12898</locationX>
+        <locationX>3108</locationX>
         <locationY>890</locationY>
         <defaultConnector>
             <targetReference>Checking_for_Description</targetReference>
@@ -1478,7 +1475,7 @@
     <decisions>
         <name>if_category_and_sub_category</name>
         <label>if category and sub-category</label>
-        <locationX>9268</locationX>
+        <locationX>2580</locationX>
         <locationY>350</locationY>
         <defaultConnector>
             <targetReference>Get_Record_Id</targetReference>
@@ -1510,8 +1507,8 @@
     <decisions>
         <name>Service_Request_Sub_Flow_Decision</name>
         <label>Service Request Sub Flow Decision</label>
-        <locationX>5858</locationX>
-        <locationY>566</locationY>
+        <locationX>6166</locationX>
+        <locationY>3122</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Appeal_Case_Condition</name>
@@ -2557,7 +2554,7 @@
         </rules>
         <rules>
             <name>UC_52_Create_Case</name>
-            <conditionLogic>(1 AND 2) OR (1 AND 3)</conditionLogic>
+            <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>caseObject.Interaction_Category__c</leftValueReference>
                 <operator>EqualTo</operator>
@@ -2570,13 +2567,6 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Pre-Closure Statement Issuance</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>caseObject.Interaction_Sub__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Revalidation of Pre-closure request</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -2745,37 +2735,7 @@
             </connector>
             <label>Scan Docket Movement</label>
         </rules>
-        <rules>
-            <name>Insurance_SR</name>
-            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
-            <conditions>
-                <leftValueReference>caseObject.Interaction_Category__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Insurance Claim</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>caseObject.Interaction_Sub__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Claim Status</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>caseObject.Interaction_Sub__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Rejected Claim Reconsideration</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Insurance_SR_Subflow</targetReference>
-            </connector>
-            <label>Insurance SR</label>
-        </rules>
     </decisions>
-    <description>Added Insurance-SR sub-flow</description>
     <dynamicChoiceSets>
         <name>caseRecodeType</name>
         <dataType>String</dataType>
@@ -2972,7 +2932,7 @@
     <loops>
         <name>Check_Selected_duplicate_Cases</name>
         <label>Check Selected duplicate Cases</label>
-        <locationX>12942</locationX>
+        <locationX>3020</locationX>
         <locationY>1598</locationY>
         <collectionReference>selectedRecords</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -2986,7 +2946,7 @@
     <loops>
         <name>Checking_for_Description</name>
         <label>Checking for Description</label>
-        <locationX>12678</locationX>
+        <locationX>2888</locationX>
         <locationY>674</locationY>
         <collectionReference>Get_Duplicate_Cases</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -3019,8 +2979,8 @@
     <recordCreates>
         <name>Copy_1_of_Create_Complaint_Case</name>
         <label>create query</label>
-        <locationX>7167</locationX>
-        <locationY>2588</locationY>
+        <locationX>7475</locationX>
+        <locationY>5186</locationY>
         <assignRecordIdToReference>newCaseId</assignRecordIdToReference>
         <connector>
             <targetReference>Get_Query</targetReference>
@@ -3117,8 +3077,8 @@
     <recordCreates>
         <name>Create_Appeal_Record_Case</name>
         <label>Create Appeal Record Case</label>
-        <locationX>5077</locationX>
-        <locationY>2246</locationY>
+        <locationX>5385</locationX>
+        <locationY>4802</locationY>
         <assignRecordIdToReference>newCaseId</assignRecordIdToReference>
         <connector>
             <targetReference>Get_Case_Record_Appeal</targetReference>
@@ -3210,14 +3170,13 @@
     <recordCreates>
         <name>Create_Complaint_Case</name>
         <label>Create Complaint Case</label>
-        <locationX>7695</locationX>
-        <locationY>2588</locationY>
+        <locationX>8003</locationX>
+        <locationY>5186</locationY>
         <assignRecordIdToReference>newCaseId</assignRecordIdToReference>
         <connector>
             <targetReference>Get_Complaint_at_creation</targetReference>
         </connector>
         <faultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>Show_Default_Error</targetReference>
         </faultConnector>
         <inputAssignments>
@@ -3321,8 +3280,8 @@
     <recordLookups>
         <name>Copy_1_of_Get_Case_Record_Appeal</name>
         <label>Copy 1 of Get Case Record Appeal</label>
-        <locationX>4549</locationX>
-        <locationY>2462</locationY>
+        <locationX>4857</locationX>
+        <locationY>5018</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Copy_1_of_Get_Email_Template_Appeal</targetReference>
@@ -3342,8 +3301,8 @@
     <recordLookups>
         <name>Copy_1_of_Get_Email_Template_Appeal</name>
         <label>Copy 1 of Get Email Template Appeal</label>
-        <locationX>4549</locationX>
-        <locationY>2570</locationY>
+        <locationX>4857</locationX>
+        <locationY>5126</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Copy_1_of_Case_Send_Email</targetReference>
@@ -3363,8 +3322,8 @@
     <recordLookups>
         <name>Copy_1_of_New_Complaint</name>
         <label>Copy 1 of New Complaint</label>
-        <locationX>6375</locationX>
-        <locationY>5408</locationY>
+        <locationX>6683</locationX>
+        <locationY>7814</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Copy_1_of_Complaint_Creation_Email</targetReference>
@@ -3385,8 +3344,8 @@
     <recordLookups>
         <name>Copy_2_of_Get_Excalation_Matrix_Record</name>
         <label>Copy 2 of Get Excalation Matrix Record</label>
-        <locationX>5979</locationX>
-        <locationY>4244</locationY>
+        <locationX>6287</locationX>
+        <locationY>6650</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Update_complaint_priority</targetReference>
@@ -3410,8 +3369,8 @@
     <recordLookups>
         <name>Get_Appeal_RecordType</name>
         <label>Get Appeal RecordType</label>
-        <locationX>4813</locationX>
-        <locationY>1598</locationY>
+        <locationX>5121</locationX>
+        <locationY>4154</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Case_Record</targetReference>
@@ -3438,8 +3397,8 @@
     <recordLookups>
         <name>Get_Case_Record</name>
         <label>Get Case Record</label>
-        <locationX>4813</locationX>
-        <locationY>1706</locationY>
+        <locationX>5121</locationX>
+        <locationY>4262</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Regional_Manager_User</targetReference>
@@ -3459,8 +3418,8 @@
     <recordLookups>
         <name>Get_Case_Record_Appeal</name>
         <label>Get Case Record Appeal</label>
-        <locationX>5077</locationX>
-        <locationY>2354</locationY>
+        <locationX>5385</locationX>
+        <locationY>4910</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Email_Template_Appeal</targetReference>
@@ -3480,8 +3439,8 @@
     <recordLookups>
         <name>Get_Case_Record_for_Update</name>
         <label>Get Case Record for Update</label>
-        <locationX>6001</locationX>
-        <locationY>2588</locationY>
+        <locationX>6309</locationX>
+        <locationY>5186</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Email_Message_Record</targetReference>
@@ -3501,8 +3460,8 @@
     <recordLookups>
         <name>Get_Complaint_at_creation</name>
         <label>Get Complaint at creation</label>
-        <locationX>7695</locationX>
-        <locationY>2696</locationY>
+        <locationX>8003</locationX>
+        <locationY>5294</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Excalation_Matrix_Record</targetReference>
@@ -3522,8 +3481,8 @@
     <recordLookups>
         <name>get_complaint_updation</name>
         <label>get complaint updation</label>
-        <locationX>5979</locationX>
-        <locationY>4136</locationY>
+        <locationX>6287</locationX>
+        <locationY>6542</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Copy_2_of_Get_Excalation_Matrix_Record</targetReference>
@@ -3543,8 +3502,8 @@
     <recordLookups>
         <name>Get_Created_Case_Details</name>
         <label>Get Created Case Details</label>
-        <locationX>5858</locationX>
-        <locationY>6008</locationY>
+        <locationX>6166</locationX>
+        <locationY>8414</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Success_Screen</targetReference>
@@ -3564,7 +3523,7 @@
     <recordLookups>
         <name>Get_Current_Case_Record</name>
         <label>Get Current Case Record</label>
-        <locationX>9268</locationX>
+        <locationX>2580</locationX>
         <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -3585,7 +3544,7 @@
     <recordLookups>
         <name>Get_Duplicate_Cases</name>
         <label>Get Duplicate Cases</label>
-        <locationX>12678</locationX>
+        <locationX>2888</locationX>
         <locationY>566</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -3634,8 +3593,8 @@
     <recordLookups>
         <name>Get_Email_Message_Record</name>
         <label>Get Email Message Record</label>
-        <locationX>6001</locationX>
-        <locationY>2696</locationY>
+        <locationX>6309</locationX>
+        <locationY>5294</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Check_for_query_category</targetReference>
@@ -3715,8 +3674,8 @@
     <recordLookups>
         <name>Get_Email_Template_Appeal</name>
         <label>Get Email Template Appeal</label>
-        <locationX>5077</locationX>
-        <locationY>2462</locationY>
+        <locationX>5385</locationX>
+        <locationY>5018</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Case_Send_Email</targetReference>
@@ -3736,8 +3695,8 @@
     <recordLookups>
         <name>Get_Entitlement</name>
         <label>Get Entitlement</label>
-        <locationX>4549</locationX>
-        <locationY>2246</locationY>
+        <locationX>4857</locationX>
+        <locationY>4802</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Update_Appeal_Case_Record</targetReference>
@@ -3757,14 +3716,13 @@
     <recordLookups>
         <name>Get_Excalation_Matrix_Record</name>
         <label>Get Excalation Matrix Record</label>
-        <locationX>7695</locationX>
-        <locationY>2804</locationY>
+        <locationX>8003</locationX>
+        <locationY>5402</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_for_SMS_1</targetReference>
         </connector>
         <faultConnector>
-            <isGoTo>true</isGoTo>
             <targetReference>Copy_3_of_Show_Default_Error</targetReference>
         </faultConnector>
         <filterLogic>and</filterLogic>
@@ -3782,8 +3740,8 @@
     <recordLookups>
         <name>Get_NPS_Template</name>
         <label>Get NPS Template</label>
-        <locationX>7167</locationX>
-        <locationY>2804</locationY>
+        <locationX>7475</locationX>
+        <locationY>5402</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_SMS_Variables</targetReference>
@@ -3803,8 +3761,8 @@
     <recordLookups>
         <name>Get_Parent_Case_Details</name>
         <label>Get Parent Case Details</label>
-        <locationX>12282</locationX>
-        <locationY>2114</locationY>
+        <locationX>2976</locationX>
+        <locationY>2714</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>LoanDepositAssignment</targetReference>
@@ -3834,8 +3792,8 @@
     <recordLookups>
         <name>Get_Query</name>
         <label>Get Query</label>
-        <locationX>7167</locationX>
-        <locationY>2696</locationY>
+        <locationX>7475</locationX>
+        <locationY>5294</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_NPS_Template</targetReference>
@@ -3855,7 +3813,7 @@
     <recordLookups>
         <name>Get_Record_Id</name>
         <label>Get Record Id</label>
-        <locationX>12678</locationX>
+        <locationX>2888</locationX>
         <locationY>458</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -3883,8 +3841,8 @@
     <recordLookups>
         <name>Get_Regional_Manager_User</name>
         <label>Get Regional Manager User</label>
-        <locationX>4813</locationX>
-        <locationY>1814</locationY>
+        <locationX>5121</locationX>
+        <locationY>4370</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Check_for_Appeal_Case_Updation</targetReference>
@@ -3907,8 +3865,8 @@
     <recordLookups>
         <name>Get_SMS_Template</name>
         <label>Get SMS Template</label>
-        <locationX>6903</locationX>
-        <locationY>2264</locationY>
+        <locationX>7211</locationX>
+        <locationY>4862</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Check_for_Existing_Case</targetReference>
@@ -3928,8 +3886,8 @@
     <recordLookups>
         <name>New_Complaint</name>
         <label>New Complaint</label>
-        <locationX>5858</locationX>
-        <locationY>6332</locationY>
+        <locationX>6166</locationX>
+        <locationY>8738</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Complaint_Creation_Email</targetReference>
@@ -3949,8 +3907,8 @@
     <recordUpdates>
         <name>Copy_1_of_Update_Case</name>
         <label>Copy 1 of Update Case</label>
-        <locationX>6639</locationX>
-        <locationY>3596</locationY>
+        <locationX>6947</locationX>
+        <locationY>6194</locationY>
         <connector>
             <targetReference>Check_for_complaint_record_type</targetReference>
         </connector>
@@ -4050,8 +4008,8 @@
     <recordUpdates>
         <name>Update_Appeal_Case_Record</name>
         <label>Update Appeal Case Record</label>
-        <locationX>4549</locationX>
-        <locationY>2354</locationY>
+        <locationX>4857</locationX>
+        <locationY>4910</locationY>
         <connector>
             <targetReference>Copy_1_of_Get_Case_Record_Appeal</targetReference>
         </connector>
@@ -4143,12 +4101,13 @@
     <recordUpdates>
         <name>Update_Case</name>
         <label>Update Case</label>
-        <locationX>6111</locationX>
-        <locationY>3596</locationY>
+        <locationX>6419</locationX>
+        <locationY>6194</locationY>
         <connector>
             <targetReference>Check_for_complaint_record_type</targetReference>
         </connector>
         <faultConnector>
+            <isGoTo>true</isGoTo>
             <targetReference>Show_Default_Error</targetReference>
         </faultConnector>
         <filterLogic>and</filterLogic>
@@ -4243,12 +4202,13 @@
     <recordUpdates>
         <name>Update_complaint_priority</name>
         <label>Update complaint priority</label>
-        <locationX>5979</locationX>
-        <locationY>4352</locationY>
+        <locationX>6287</locationX>
+        <locationY>6758</locationY>
         <connector>
             <targetReference>Copy_1_of_Assign_for_SMS_1</targetReference>
         </connector>
         <faultConnector>
+            <isGoTo>true</isGoTo>
             <targetReference>Copy_3_of_Show_Default_Error</targetReference>
         </faultConnector>
         <filterLogic>and</filterLogic>
@@ -4270,10 +4230,9 @@
     <recordUpdates>
         <name>Update_Duplicate_Cases_as_resolved</name>
         <label>Update Duplicate Cases as resolved</label>
-        <locationX>13074</locationX>
+        <locationX>3108</locationX>
         <locationY>2006</locationY>
         <connector>
-            <isGoTo>true</isGoTo>
             <targetReference>Copy_1_of_Take_Input_Screen</targetReference>
         </connector>
         <faultConnector>
@@ -4286,8 +4245,8 @@
     <screens>
         <name>Case_Summary</name>
         <label>Case Summary</label>
-        <locationX>6903</locationX>
-        <locationY>2156</locationY>
+        <locationX>7211</locationX>
+        <locationY>4754</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4366,7 +4325,7 @@
         </fields>
         <fields>
             <name>ComplaintSourceReferenceNumber</name>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;Complain Source Reference Number : &lt;/strong&gt;&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;{!caseObject.Complaint_Source_Referece_Number__c}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Complain Source Reference Number : &lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!caseObject.Complaint_Source_Referece_Number__c}&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
             <visibilityRule>
                 <conditionLogic>or</conditionLogic>
@@ -4450,8 +4409,8 @@
     <screens>
         <name>Complaint_Case_Screen</name>
         <label>Complaint Case Screen</label>
-        <locationX>6375</locationX>
-        <locationY>5192</locationY>
+        <locationX>6683</locationX>
+        <locationY>7598</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4470,8 +4429,8 @@
     <screens>
         <name>Copy_1_of_Complaint_Case_Screen</name>
         <label>Copy 1 of Complaint Case Screen</label>
-        <locationX>4549</locationX>
-        <locationY>2786</locationY>
+        <locationX>4857</locationX>
+        <locationY>5342</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4490,8 +4449,8 @@
     <screens>
         <name>Copy_1_of_Copy_1_of_Redirect_Screen</name>
         <label>Copy 1 of Copy 1 of Redirect Screen</label>
-        <locationX>4549</locationX>
-        <locationY>2894</locationY>
+        <locationX>4857</locationX>
+        <locationY>5450</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4515,8 +4474,8 @@
     <screens>
         <name>Copy_1_of_Redirect_Screen</name>
         <label>Copy 1 of Redirect Screen</label>
-        <locationX>6375</locationX>
-        <locationY>5300</locationY>
+        <locationX>6683</locationX>
+        <locationY>7706</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4543,8 +4502,8 @@
     <screens>
         <name>Copy_1_of_Show_Default_Error</name>
         <label>Copy 1 of Show Default Error</label>
-        <locationX>7431</locationX>
-        <locationY>2696</locationY>
+        <locationX>7739</locationX>
+        <locationY>5294</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4559,8 +4518,8 @@
     <screens>
         <name>Copy_1_of_Take_Input_Screen</name>
         <label>Copy 1 of Take Input Screen</label>
-        <locationX>12414</locationX>
-        <locationY>1490</locationY>
+        <locationX>3108</locationX>
+        <locationY>2498</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4666,8 +4625,8 @@
     <screens>
         <name>Copy_2_of_Show_Default_Error</name>
         <label>Copy 2 of Show Default Error</label>
-        <locationX>6221</locationX>
-        <locationY>3020</locationY>
+        <locationX>6529</locationX>
+        <locationY>5618</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4682,8 +4641,8 @@
     <screens>
         <name>Copy_3_of_Show_Default_Error</name>
         <label>Copy 3 of Show Default Error</label>
-        <locationX>6243</locationX>
-        <locationY>4460</locationY>
+        <locationX>8267</locationX>
+        <locationY>5510</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4698,8 +4657,8 @@
     <screens>
         <name>Create_a_Appeal_Case</name>
         <label>Create a Appeal Case</label>
-        <locationX>4813</locationX>
-        <locationY>2462</locationY>
+        <locationX>5121</locationX>
+        <locationY>5018</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4714,7 +4673,7 @@
     <screens>
         <name>Duplicate_Case</name>
         <label>Duplicate Cases</label>
-        <locationX>12942</locationX>
+        <locationX>3020</locationX>
         <locationY>1490</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -4778,8 +4737,8 @@
     <screens>
         <name>Error</name>
         <label>Error</label>
-        <locationX>12282</locationX>
-        <locationY>2522</locationY>
+        <locationX>50</locationX>
+        <locationY>3122</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4794,8 +4753,8 @@
     <screens>
         <name>Forgot_User_Id_Error_Screen</name>
         <label>Forgot User Id Error Screen</label>
-        <locationX>9114</locationX>
-        <locationY>782</locationY>
+        <locationX>9642</locationX>
+        <locationY>3338</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4810,13 +4769,12 @@
     <screens>
         <name>Get_Complaint_Source_Reference_Number</name>
         <label>Get Complaint Source Reference Number</label>
-        <locationX>6441</locationX>
-        <locationY>1814</locationY>
+        <locationX>6793</locationX>
+        <locationY>4370</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <isGoTo>true</isGoTo>
             <targetReference>Assign_case_status_for_Complaint</targetReference>
         </connector>
         <fields>
@@ -4824,7 +4782,6 @@
             <dataType>String</dataType>
             <fieldText>Complaint Source Reference Number</fieldText>
             <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <validationRule>
                 <errorMessage>&lt;p&gt;More than 50 Characters are not Allowed.&amp;nbsp;&lt;/p&gt;</errorMessage>
@@ -4838,8 +4795,8 @@
     <screens>
         <name>Insurance_Policy_Related_user_inputs</name>
         <label>Insurance Policy Related user inputs</label>
-        <locationX>12282</locationX>
-        <locationY>1706</locationY>
+        <locationX>3108</locationX>
+        <locationY>2714</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4851,7 +4808,6 @@
             <dataType>String</dataType>
             <fieldText>Insurer Name</fieldText>
             <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
@@ -4859,7 +4815,6 @@
             <dataType>Currency</dataType>
             <fieldText>Insurance Amount</fieldText>
             <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <scale>0</scale>
         </fields>
@@ -4869,8 +4824,8 @@
     <screens>
         <name>Internal_SR_Validation_Screen</name>
         <label>Internal SR Validation Screen</label>
-        <locationX>6738</locationX>
-        <locationY>674</locationY>
+        <locationX>7266</locationX>
+        <locationY>3230</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4885,8 +4840,8 @@
     <screens>
         <name>Invalid_Input</name>
         <label>Invalid Input</label>
-        <locationX>50</locationX>
-        <locationY>674</locationY>
+        <locationX>666</locationX>
+        <locationY>3230</locationY>
         <allowBack>true</allowBack>
         <allowFinish>false</allowFinish>
         <allowPause>true</allowPause>
@@ -4901,8 +4856,8 @@
     <screens>
         <name>Redirect_Screen</name>
         <label>Redirect Screen</label>
-        <locationX>5858</locationX>
-        <locationY>6224</locationY>
+        <locationX>6166</locationX>
+        <locationY>8630</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4929,8 +4884,8 @@
     <screens>
         <name>ROMUserErrorScreen</name>
         <label>ROMUserErrorScreen</label>
-        <locationX>5605</locationX>
-        <locationY>1922</locationY>
+        <locationX>5913</locationX>
+        <locationY>4478</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -4945,8 +4900,8 @@
     <screens>
         <name>SelectRightSubCategory</name>
         <label>SelectRightSubCategory</label>
-        <locationX>578</locationX>
-        <locationY>782</locationY>
+        <locationX>1634</locationX>
+        <locationY>3638</locationY>
         <allowBack>true</allowBack>
         <allowFinish>false</allowFinish>
         <allowPause>false</allowPause>
@@ -4961,8 +4916,8 @@
     <screens>
         <name>Show_Default_Error</name>
         <label>Show Default Error</label>
-        <locationX>6375</locationX>
-        <locationY>3704</locationY>
+        <locationX>8531</locationX>
+        <locationY>5294</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4977,8 +4932,8 @@
     <screens>
         <name>Success_Screen</name>
         <label>Success Screen</label>
-        <locationX>5858</locationX>
-        <locationY>6116</locationY>
+        <locationX>6166</locationX>
+        <locationY>8522</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -4995,7 +4950,7 @@
         <showHeader>false</showHeader>
     </screens>
     <start>
-        <locationX>11309</locationX>
+        <locationX>2982</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Check_Record_Id</targetReference>
@@ -5005,8 +4960,8 @@
     <subflows>
         <name>Addition_Deletion_of_Co_Applicant_Subflow</name>
         <label>Addition/Deletion of Co-Applicant Subflow</label>
-        <locationX>8586</locationX>
-        <locationY>674</locationY>
+        <locationX>9114</locationX>
+        <locationY>3230</locationY>
         <flowName>Addition_Deletion_of_Co_Applicant_UC_34B</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5018,8 +4973,8 @@
     <subflows>
         <name>Case_FD_Related_Sub_Type</name>
         <label>Case FD Related Sub Type</label>
-        <locationX>3306</locationX>
-        <locationY>674</locationY>
+        <locationX>3834</locationX>
+        <locationY>3230</locationY>
         <flowName>Case_FD_Related</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5031,8 +4986,8 @@
     <subflows>
         <name>Case_List_Of_Documents</name>
         <label>Case List Of Documents</label>
-        <locationX>4890</locationX>
-        <locationY>674</locationY>
+        <locationX>5418</locationX>
+        <locationY>3230</locationY>
         <flowName>Case_List_Of_Documents</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5044,8 +4999,8 @@
     <subflows>
         <name>Case_Send_Email</name>
         <label>Case Send Email</label>
-        <locationX>5077</locationX>
-        <locationY>2570</locationY>
+        <locationX>5385</locationX>
+        <locationY>5126</locationY>
         <connector>
             <targetReference>Get_Created_Case_Details</targetReference>
         </connector>
@@ -5072,8 +5027,8 @@
     <subflows>
         <name>Centralized_Refund_Screen</name>
         <label>Centralized Refund Screen</label>
-        <locationX>1018</locationX>
-        <locationY>1082</locationY>
+        <locationX>1810</locationX>
+        <locationY>3338</locationY>
         <flowName>Centralized_Refund_Flow</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5089,8 +5044,8 @@
     <subflows>
         <name>CF_Collateral_Security_Related1</name>
         <label>CF- Collateral/Security Related1</label>
-        <locationX>10434</locationX>
-        <locationY>674</locationY>
+        <locationX>10962</locationX>
+        <locationY>3230</locationY>
         <flowName>CF_Collateral_Security_Related</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5103,8 +5058,8 @@
     <subflows>
         <name>CF_LoanClosure</name>
         <label>CF- LoanClosure</label>
-        <locationX>10698</locationX>
-        <locationY>674</locationY>
+        <locationX>11226</locationX>
+        <locationY>3230</locationY>
         <flowName>CF_Loan_Closure</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5117,8 +5072,8 @@
     <subflows>
         <name>CF_Scan_Copy_of_Documents1</name>
         <label>CF- Scan Copy of Documents</label>
-        <locationX>11226</locationX>
-        <locationY>674</locationY>
+        <locationX>11754</locationX>
+        <locationY>3230</locationY>
         <flowName>CF_Collateral_Security_Related</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5130,8 +5085,8 @@
     <subflows>
         <name>Check_Duplicate_Case_Flow_0</name>
         <label>Check Duplicate Case Flow</label>
-        <locationX>5077</locationX>
-        <locationY>2138</locationY>
+        <locationX>5385</locationX>
+        <locationY>4694</locationY>
         <connector>
             <targetReference>Create_Appeal_Record_Case</targetReference>
         </connector>
@@ -5146,8 +5101,8 @@
     <subflows>
         <name>Closure_of_Loan_Subflow</name>
         <label>Closure of Loan Subflow</label>
-        <locationX>5418</locationX>
-        <locationY>674</locationY>
+        <locationX>5946</locationX>
+        <locationY>3230</locationY>
         <flowName>Closure_of_Loan_UC_6_1</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5159,8 +5114,8 @@
     <subflows>
         <name>Closure_of_Loan_UCC_Subflow</name>
         <label>Closure of Loan UCC Subflow</label>
-        <locationX>5946</locationX>
-        <locationY>674</locationY>
+        <locationX>6474</locationX>
+        <locationY>3230</locationY>
         <flowName>Closure_of_Loan_ICC_UC_41</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5173,8 +5128,8 @@
     <subflows>
         <name>Collateral_Security_Related_Case</name>
         <label>Collateral/Security Related Case</label>
-        <locationX>1722</locationX>
-        <locationY>674</locationY>
+        <locationX>2250</locationX>
+        <locationY>3230</locationY>
         <flowName>Create_Service_Request_Case</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5190,8 +5145,8 @@
     <subflows>
         <name>Collect_Property_documents_Subflow</name>
         <label>Collect Property documents Subflow</label>
-        <locationX>4362</locationX>
-        <locationY>674</locationY>
+        <locationX>4890</locationX>
+        <locationY>3230</locationY>
         <flowName>Collect_Property_documents_UC_26_1</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5204,8 +5159,8 @@
     <subflows>
         <name>Complaint_Creation_Email</name>
         <label>Complaint Creation Email</label>
-        <locationX>5858</locationX>
-        <locationY>6440</locationY>
+        <locationX>6166</locationX>
+        <locationY>8846</locationY>
         <connector>
             <targetReference>Assign_Params</targetReference>
         </connector>
@@ -5226,8 +5181,8 @@
     <subflows>
         <name>Copy_1_of_Case_Send_Email</name>
         <label>Copy 1 of Case Send Email</label>
-        <locationX>4549</locationX>
-        <locationY>2678</locationY>
+        <locationX>4857</locationX>
+        <locationY>5234</locationY>
         <connector>
             <targetReference>Copy_1_of_Complaint_Case_Screen</targetReference>
         </connector>
@@ -5254,8 +5209,8 @@
     <subflows>
         <name>Copy_1_of_Check_Duplicate_Case_Flow</name>
         <label>Copy 1 of Check Duplicate Case Flow</label>
-        <locationX>4549</locationX>
-        <locationY>2138</locationY>
+        <locationX>4857</locationX>
+        <locationY>4694</locationY>
         <connector>
             <targetReference>Get_Entitlement</targetReference>
         </connector>
@@ -5270,8 +5225,8 @@
     <subflows>
         <name>Copy_1_of_Complaint_Creation_Email</name>
         <label>Copy 1 of Complaint Creation Email</label>
-        <locationX>6375</locationX>
-        <locationY>5516</locationY>
+        <locationX>6683</locationX>
+        <locationY>7922</locationY>
         <connector>
             <targetReference>Copy_1_of_Assign_Params</targetReference>
         </connector>
@@ -5292,8 +5247,8 @@
     <subflows>
         <name>Copy_1_of_Send_SMS_to_first_mobile</name>
         <label>Copy 1 of Send SMS to first mobile</label>
-        <locationX>5979</locationX>
-        <locationY>4568</locationY>
+        <locationX>6287</locationX>
+        <locationY>6974</locationY>
         <connector>
             <targetReference>Copy_1_of_Assign_for_SMS2</targetReference>
         </connector>
@@ -5308,8 +5263,8 @@
     <subflows>
         <name>Copy_1_of_SendSMS_to_second_mobile</name>
         <label>Copy 1 of SendSMS to second mobile</label>
-        <locationX>5979</locationX>
-        <locationY>4784</locationY>
+        <locationX>6287</locationX>
+        <locationY>7190</locationY>
         <connector>
             <targetReference>Copy_1_of_SMS_to_Third_Mobile</targetReference>
         </connector>
@@ -5324,8 +5279,8 @@
     <subflows>
         <name>Copy_1_of_SMS_to_3rd</name>
         <label>Copy 1 of SMS to 3rd</label>
-        <locationX>5979</locationX>
-        <locationY>5000</locationY>
+        <locationX>6287</locationX>
+        <locationY>7406</locationY>
         <connector>
             <targetReference>Complaint_Case_Screen</targetReference>
         </connector>
@@ -5340,8 +5295,8 @@
     <subflows>
         <name>Create_Case_UC_52</name>
         <label>Create Case UC 52</label>
-        <locationX>9642</locationX>
-        <locationY>674</locationY>
+        <locationX>10170</locationX>
+        <locationY>3230</locationY>
         <flowName>Case_Creation_UC52</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5353,8 +5308,8 @@
     <subflows>
         <name>Create_SR_FOR_ROI_Revision_RWR_Case</name>
         <label>Create SR FOR ROI Revision-RWR Case</label>
-        <locationX>6474</locationX>
-        <locationY>674</locationY>
+        <locationX>7002</locationX>
+        <locationY>3230</locationY>
         <flowName>CreateSRFORROIRevisionRWRCase</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5370,8 +5325,8 @@
     <subflows>
         <name>Create_SR_For_Tracking_of_QR_Code_Payment</name>
         <label>Create SR For Tracking of QR Code Payment</label>
-        <locationX>2514</locationX>
-        <locationY>674</locationY>
+        <locationX>3042</locationX>
+        <locationY>3230</locationY>
         <flowName>Create_a_SR_Case_for_Tracking_of_QR_Code_Payment</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5387,8 +5342,8 @@
     <subflows>
         <name>Create_SR_forScanCopyofDocuments</name>
         <label>Create SR for Scan Copy of Documents</label>
-        <locationX>4098</locationX>
-        <locationY>674</locationY>
+        <locationX>4626</locationX>
+        <locationY>3230</locationY>
         <flowName>Scan_Copy_of_Documents</flowName>
         <inputAssignments>
             <name>caseObj</name>
@@ -5400,8 +5355,8 @@
     <subflows>
         <name>CreateaSRCaseForLoanClosure</name>
         <label>Create a SR Case For Loan Closure</label>
-        <locationX>4626</locationX>
-        <locationY>674</locationY>
+        <locationX>5154</locationX>
+        <locationY>3230</locationY>
         <flowName>Create_a_SR_Case_For_Loan_Closure</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5417,8 +5372,8 @@
     <subflows>
         <name>Customer_Retention1</name>
         <label>Customer Retention</label>
-        <locationX>9906</locationX>
-        <locationY>674</locationY>
+        <locationX>10434</locationX>
+        <locationY>3230</locationY>
         <flowName>Customer_Retention</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5431,8 +5386,8 @@
     <subflows>
         <name>Deliverable_Related_Subflow</name>
         <label>Deliverable Related Subflow</label>
-        <locationX>2250</locationX>
-        <locationY>674</locationY>
+        <locationX>2778</locationX>
+        <locationY>3230</locationY>
         <flowName>Deliverable_Related_UC20_1</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5445,8 +5400,8 @@
     <subflows>
         <name>Disbursement_Related_subflow</name>
         <label>Disbursement Related subflow</label>
-        <locationX>10170</locationX>
-        <locationY>674</locationY>
+        <locationX>10698</locationX>
+        <locationY>3230</locationY>
         <flowName>Disbursement_Related</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5459,8 +5414,8 @@
     <subflows>
         <name>Disbursement_RTGS_related_Subflow</name>
         <label>Disbursement RTGS related Subflow</label>
-        <locationX>8322</locationX>
-        <locationY>674</locationY>
+        <locationX>8850</locationX>
+        <locationY>3230</locationY>
         <flowName>Disbursement_RTGS_related_UC_47_1</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5472,8 +5427,8 @@
     <subflows>
         <name>EMI_PEMI_related_Confirmation_of_NEFT_Cheque_Flow</name>
         <label>EMI/PEMI related - Confirmation of NEFT/Cheque Flow</label>
-        <locationX>6210</locationX>
-        <locationY>674</locationY>
+        <locationX>6738</locationX>
+        <locationY>3230</locationY>
         <flowName>EMI_PEMI_related_Confirmation_of_NEFT_Cheque</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5485,8 +5440,8 @@
     <subflows>
         <name>EMI_PEMI_related_Increase_in_EMI_Screen</name>
         <label>EMI/PEMI related( Increase in EMI) Screen</label>
-        <locationX>314</locationX>
-        <locationY>674</locationY>
+        <locationX>930</locationX>
+        <locationY>3230</locationY>
         <flowName>EMI_PEMI_related_Increase_in_EMI_Flow</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5502,8 +5457,8 @@
     <subflows>
         <name>EMI_PEMI_related_Representation_of_ECS_Flow</name>
         <label>EMI/PEMI related - Representation of ECS Flow</label>
-        <locationX>7530</locationX>
-        <locationY>674</locationY>
+        <locationX>8058</locationX>
+        <locationY>3230</locationY>
         <flowName>EMI_PEMI_related_Representation_of_ECS</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5515,8 +5470,8 @@
     <subflows>
         <name>EMI_PEMI_related_Revision_in_Due_date_Screen</name>
         <label>EMI/PEMI related (Revision in Due date) Screen</label>
-        <locationX>1986</locationX>
-        <locationY>674</locationY>
+        <locationX>2514</locationX>
+        <locationY>3230</locationY>
         <flowName>EMI_PEMI_related_Revision_in_Due_date_Flow</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5532,8 +5487,8 @@
     <subflows>
         <name>Insurance_Related_Flow</name>
         <label>Insurance Related Flow</label>
-        <locationX>2778</locationX>
-        <locationY>674</locationY>
+        <locationX>3306</locationX>
+        <locationY>3230</locationY>
         <flowName>Insurance_related</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5543,23 +5498,10 @@
         </inputAssignments>
     </subflows>
     <subflows>
-        <name>Insurance_SR_Subflow</name>
-        <label>Insurance SR Subflow</label>
-        <locationX>11754</locationX>
-        <locationY>674</locationY>
-        <flowName>Insurance_SR</flowName>
-        <inputAssignments>
-            <name>caseRecord</name>
-            <value>
-                <elementReference>caseObject</elementReference>
-            </value>
-        </inputAssignments>
-    </subflows>
-    <subflows>
         <name>MODT_Registration_Flow</name>
         <label>MODT Registration Flow</label>
-        <locationX>7794</locationX>
-        <locationY>674</locationY>
+        <locationX>8322</locationX>
+        <locationY>3230</locationY>
         <flowName>MODT_Registration</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5571,8 +5513,8 @@
     <subflows>
         <name>MODT_related_Subflow</name>
         <label>MODT related Subflow</label>
-        <locationX>8058</locationX>
-        <locationY>674</locationY>
+        <locationX>8586</locationX>
+        <locationY>3230</locationY>
         <flowName>MODT_related_UC_37</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5584,8 +5526,8 @@
     <subflows>
         <name>NACH_Cancellation_Subflow</name>
         <label>NACH Cancellation Subflow</label>
-        <locationX>9378</locationX>
-        <locationY>674</locationY>
+        <locationX>9906</locationX>
+        <locationY>3230</locationY>
         <flowName>NACH_Cancellation_UC_48</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5597,8 +5539,8 @@
     <subflows>
         <name>Online_Payment_Flow</name>
         <label>Online Payment Flow</label>
-        <locationX>3834</locationX>
-        <locationY>674</locationY>
+        <locationX>4362</locationX>
+        <locationY>3230</locationY>
         <flowName>Online_Payment_UC_15</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5610,8 +5552,8 @@
     <subflows>
         <name>Re_LYC_Manual_Document</name>
         <label>Re-LYC Manual Document</label>
-        <locationX>10962</locationX>
-        <locationY>674</locationY>
+        <locationX>11490</locationX>
+        <locationY>3230</locationY>
         <flowName>Re_LYC_Manual_Document_Submission</flowName>
         <inputAssignments>
             <name>caseobj</name>
@@ -5623,8 +5565,8 @@
     <subflows>
         <name>Refund_of_Processing_Fees_Flow</name>
         <label>Refund of Processing Fees Flow</label>
-        <locationX>5154</locationX>
-        <locationY>674</locationY>
+        <locationX>5682</locationX>
+        <locationY>3230</locationY>
         <flowName>Refund_of_Processing_Fees</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5636,8 +5578,8 @@
     <subflows>
         <name>ROI_conversion_offered_over_the_counter2</name>
         <label>ROI conversion offered over the counter</label>
-        <locationX>5682</locationX>
-        <locationY>674</locationY>
+        <locationX>6210</locationX>
+        <locationY>3230</locationY>
         <flowName>Create_SR_for_ROI_Conversion</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5653,8 +5595,8 @@
     <subflows>
         <name>Sanction_Conditions_Flow</name>
         <label>Sanction Conditions Flow</label>
-        <locationX>7266</locationX>
-        <locationY>674</locationY>
+        <locationX>7794</locationX>
+        <locationY>3230</locationY>
         <flowName>Sanction_Conditions</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5666,8 +5608,8 @@
     <subflows>
         <name>Scan_Docket_Movement_Screen_Flow</name>
         <label>Scan Docket Movement Screen Flow</label>
-        <locationX>11490</locationX>
-        <locationY>674</locationY>
+        <locationX>12018</locationX>
+        <locationY>3230</locationY>
         <flowName>Disbursement_Related_Scan_Dock_SR_Screen_Flow</flowName>
         <inputAssignments>
             <name>caseObj</name>
@@ -5679,8 +5621,8 @@
     <subflows>
         <name>Send_SMS_to_first_mobile</name>
         <label>Send SMS to first mobile</label>
-        <locationX>7695</locationX>
-        <locationY>3020</locationY>
+        <locationX>8003</locationX>
+        <locationY>5618</locationY>
         <connector>
             <targetReference>Assign_for_SMS2</targetReference>
         </connector>
@@ -5695,8 +5637,8 @@
     <subflows>
         <name>Send_User_Id_Subflow</name>
         <label>Send User Id Subflow</label>
-        <locationX>8850</locationX>
-        <locationY>782</locationY>
+        <locationX>9378</locationX>
+        <locationY>3338</locationY>
         <flowName>Send_User_Id</flowName>
         <inputAssignments>
             <name>recordId</name>
@@ -5709,8 +5651,8 @@
     <subflows>
         <name>SendSMS_to_second_mobile</name>
         <label>SendSMS to second mobile</label>
-        <locationX>7695</locationX>
-        <locationY>3236</locationY>
+        <locationX>8003</locationX>
+        <locationY>5834</locationY>
         <connector>
             <targetReference>SMS_to_Third_Mobile</targetReference>
         </connector>
@@ -5725,8 +5667,8 @@
     <subflows>
         <name>SMS_to_3rd</name>
         <label>SMS to 3rd</label>
-        <locationX>7695</locationX>
-        <locationY>3452</locationY>
+        <locationX>8003</locationX>
+        <locationY>6050</locationY>
         <connector>
             <targetReference>Get_Created_Case_Details</targetReference>
         </connector>
@@ -5741,8 +5683,8 @@
     <subflows>
         <name>Status_of_Loan_Application_Flow</name>
         <label>Status of Loan Application Flow</label>
-        <locationX>3042</locationX>
-        <locationY>674</locationY>
+        <locationX>3570</locationX>
+        <locationY>3230</locationY>
         <flowName>Status_of_Loan_Application_UC_25</flowName>
         <inputAssignments>
             <name>caseRecord</name>
@@ -5754,8 +5696,8 @@
     <subflows>
         <name>Sub_Repayment_Mode</name>
         <label>Sub Repayment Mode</label>
-        <locationX>7002</locationX>
-        <locationY>674</locationY>
+        <locationX>7530</locationX>
+        <locationY>3230</locationY>
         <flowName>Sub_Repayment_Mode</flowName>
         <inputAssignments>
             <name>caseObject</name>
@@ -5767,8 +5709,8 @@
     <subflows>
         <name>Subsequent_Disbursement1</name>
         <label>Subsequent Disbursement</label>
-        <locationX>3570</locationX>
-        <locationY>674</locationY>
+        <locationX>4098</locationX>
+        <locationY>3230</locationY>
         <flowName>Subsequent_Disbursement</flowName>
         <inputAssignments>
             <name>caseObject</name>

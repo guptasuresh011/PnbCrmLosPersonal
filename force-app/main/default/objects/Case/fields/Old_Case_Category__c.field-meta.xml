@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Case_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Old Case Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EMI/PEMI related</fullName>
+                <default>false</default>
+                <label>EMI/PEMI related</label>
+            </value>
+            <value>
+                <fullName>Tracking of QR Code Payment</fullName>
+                <default>false</default>
+                <label>Tracking of QR Code Payment</label>
+            </value>
+            <value>
+                <fullName>Re-KYC</fullName>
+                <default>false</default>
+                <label>Re-KYC</label>
+            </value>
+            <value>
+                <fullName>Insurance Related</fullName>
+                <default>false</default>
+                <label>Insurance Related</label>
+            </value>
+            <value>
+                <fullName>Recovery Related( Internal SR)</fullName>
+                <default>false</default>
+                <label>Recovery Related( Internal SR)</label>
+            </value>
+            <value>
+                <fullName>Receipt book related( Internal SR)</fullName>
+                <default>false</default>
+                <label>Receipt book related( Internal SR)</label>
+            </value>
+            <value>
+                <fullName>Scan Copy of Documents</fullName>
+                <default>false</default>
+                <label>Scan Copy of Documents</label>
+            </value>
+            <value>
+                <fullName>Online Payments</fullName>
+                <default>false</default>
+                <label>Online Payments</label>
+            </value>
+            <value>
+                <fullName>Centralized Refunds</fullName>
+                <default>false</default>
+                <label>Centralized Refunds</label>
+            </value>
+            <value>
+                <fullName>ROI Conversion</fullName>
+                <default>false</default>
+                <label>ROI Conversion</label>
+            </value>
+            <value>
+                <fullName>Demographic Details</fullName>
+                <default>false</default>
+                <label>Demographic Details</label>
+            </value>
+            <value>
+                <fullName>Collateral/Security Related</fullName>
+                <default>false</default>
+                <label>Collateral/Security Related</label>
+            </value>
+            <value>
+                <fullName>Deliverable Related</fullName>
+                <default>false</default>
+                <label>Deliverable Related</label>
+            </value>
+            <value>
+                <fullName>MODT Registration</fullName>
+                <default>false</default>
+                <label>MODT Registration</label>
+            </value>
+            <value>
+                <fullName>Refund of Processing Fees</fullName>
+                <default>false</default>
+                <label>Refund of Processing Fees</label>
+            </value>
+            <value>
+                <fullName>Centralized Refund</fullName>
+                <default>false</default>
+                <label>Centralized Refund</label>
+            </value>
+            <value>
+                <fullName>Loan Application Status</fullName>
+                <default>false</default>
+                <label>Loan Application Status</label>
+            </value>
+            <value>
+                <fullName>Collateral Related</fullName>
+                <default>false</default>
+                <label>Collateral Related</label>
+            </value>
+            <value>
+                <fullName>Subsequent Disbursement</fullName>
+                <default>false</default>
+                <label>Subsequent Disbursement</label>
+            </value>
+            <value>
+                <fullName>AML SR</fullName>
+                <default>false</default>
+                <label>AML SR</label>
+            </value>
+            <value>
+                <fullName>Deliverability Related</fullName>
+                <default>false</default>
+                <label>Deliverability Related</label>
+            </value>
+            <value>
+                <fullName>Disbursement Related</fullName>
+                <default>false</default>
+                <label>Disbursement Related</label>
+            </value>
+            <value>
+                <fullName>Recovery related</fullName>
+                <default>false</default>
+                <label>Recovery related</label>
+            </value>
+            <value>
+                <fullName>SR Creation from Customer Portal</fullName>
+                <default>false</default>
+                <label>SR Creation from Customer Portal</label>
+            </value>
+            <value>
+                <fullName>MODT related</fullName>
+                <default>false</default>
+                <label>MODT related</label>
+            </value>
+            <value>
+                <fullName>Loan Closure</fullName>
+                <default>false</default>
+                <label>Loan Closure</label>
+            </value>
+            <value>
+                <fullName>ROI Revision-RWR Case</fullName>
+                <default>false</default>
+                <label>ROI Revision-RWR Case</label>
+            </value>
+            <value>
+                <fullName>Forgot User ID</fullName>
+                <default>false</default>
+                <label>Forgot User ID</label>
+            </value>
+            <value>
+                <fullName>FD related</fullName>
+                <default>false</default>
+                <label>FD related</label>
+            </value>
+            <value>
+                <fullName>Broker Activation</fullName>
+                <default>false</default>
+                <label>Broker Activation</label>
+            </value>
+            <value>
+                <fullName>Disbursement RTGS related</fullName>
+                <default>false</default>
+                <label>Disbursement RTGS related</label>
+            </value>
+            <value>
+                <fullName>Repayment Mode</fullName>
+                <default>false</default>
+                <label>Repayment Mode</label>
+            </value>
+            <value>
+                <fullName>Sanction Conditions</fullName>
+                <default>false</default>
+                <label>Sanction Conditions</label>
+            </value>
+            <value>
+                <fullName>NPS</fullName>
+                <default>false</default>
+                <label>NPS</label>
+            </value>
+            <value>
+                <fullName>Closure of loan</fullName>
+                <default>false</default>
+                <label>Closure of loan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

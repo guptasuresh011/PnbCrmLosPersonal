@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_increase__c</fullName>
+    <description>The reason stated for an increase in something.</description>
+    <externalId>false</externalId>
+    <label>Reason for increase</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

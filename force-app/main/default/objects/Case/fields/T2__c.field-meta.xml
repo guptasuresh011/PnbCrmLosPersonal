@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Represents a specific category or type of transaction or process.</description>
+    <externalId>false</externalId>
+    <label>T2</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

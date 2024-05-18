@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Welcome_Call_Closure_Remarks__c</fullName>
+    <externalId>false</externalId>
+    <label>Welcome Call Closure Remarks</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All information shared, and concerns resolved</fullName>
+                <default>false</default>
+                <label>All information shared, and concerns resolved</label>
+            </value>
+            <value>
+                <fullName>Customer Request for disbursement cancellation</fullName>
+                <default>false</default>
+                <label>Customer Request for disbursement cancellation</label>
+            </value>
+            <value>
+                <fullName>Query Resolved but Customer is not Satisfied</fullName>
+                <default>false</default>
+                <label>Query Resolved but Customer is not Satisfied</label>
+            </value>
+            <value>
+                <fullName>Complaint Registered At CRM</fullName>
+                <default>false</default>
+                <label>Complaint Registered At CRM</label>
+            </value>
+            <value>
+                <fullName>Concern related to Process and Policy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concern related to Process and Policy</label>
+            </value>
+            <value>
+                <fullName>Disbursement Cancellation case</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disbursement Cancellation case</label>
+            </value>
+            <value>
+                <fullName>Escalation registered at CSO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escalation registered at CSO</label>
+            </value>
+            <value>
+                <fullName>Loan Cancellation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Loan Cancellation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

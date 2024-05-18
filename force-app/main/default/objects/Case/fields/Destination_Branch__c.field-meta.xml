@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Destination_Branch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The branch where the transaction or service is being directed.</description>
+    <externalId>false</externalId>
+    <label>Destination Branch</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Branch_Master__c.Branch_Type__c</field>
+            <operation>notEqual</operation>
+            <value>Hub</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Branch_Master__c</referenceTo>
+    <relationshipLabel>Cases (Destination Branch)</relationshipLabel>
+    <relationshipName>Cases1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

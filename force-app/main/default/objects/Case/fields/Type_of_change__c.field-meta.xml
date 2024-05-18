@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_change__c</fullName>
+    <description>Specifies the type or category of a requested change.</description>
+    <externalId>false</externalId>
+    <label>Type of change</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change in mobile number</fullName>
+                <default>false</default>
+                <label>Change in mobile number</label>
+            </value>
+            <value>
+                <fullName>Change in email id</fullName>
+                <default>false</default>
+                <label>Change in email id</label>
+            </value>
+            <value>
+                <fullName>Change in address</fullName>
+                <default>false</default>
+                <label>Change in address</label>
+            </value>
+            <value>
+                <fullName>Update property address as communication</fullName>
+                <default>false</default>
+                <label>Update property address as communication</label>
+            </value>
+            <value>
+                <fullName>Update GST number</fullName>
+                <default>false</default>
+                <label>Update GST number</label>
+            </value>
+            <value>
+                <fullName>Update PAN</fullName>
+                <default>false</default>
+                <label>Update PAN</label>
+            </value>
+            <value>
+                <fullName>Update Aadhaar number</fullName>
+                <default>false</default>
+                <label>Update Aadhaar number</label>
+            </value>
+            <value>
+                <fullName>Update E KYC</fullName>
+                <default>false</default>
+                <label>Update CKYC</label>
+            </value>
+            <value>
+                <fullName>Correction in salutation</fullName>
+                <default>false</default>
+                <label>Correction in salutation</label>
+            </value>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

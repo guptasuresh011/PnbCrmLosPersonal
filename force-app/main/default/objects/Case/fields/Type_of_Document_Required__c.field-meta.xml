@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Document_Required__c</fullName>
+    <description>The type or category of a document.</description>
+    <externalId>false</externalId>
+    <label>Type of Document</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FD interest statement</fullName>
+                <default>false</default>
+                <label>FD interest statement</label>
+            </value>
+            <value>
+                <fullName>FD Statement of Account</fullName>
+                <default>false</default>
+                <label>FD Statement of Account</label>
+            </value>
+            <value>
+                <fullName>Final IT Certificate</fullName>
+                <default>false</default>
+                <label>Final IT Certificate</label>
+            </value>
+            <value>
+                <fullName>List of Documents</fullName>
+                <default>false</default>
+                <label>List of Documents</label>
+            </value>
+            <value>
+                <fullName>NOC for Possession</fullName>
+                <default>false</default>
+                <label>NOC for Possession</label>
+            </value>
+            <value>
+                <fullName>NOC upon Loan Closure</fullName>
+                <default>false</default>
+                <label>NOC upon Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Provisional IT Certificate</fullName>
+                <default>false</default>
+                <label>Provisional IT Certificate</label>
+            </value>
+            <value>
+                <fullName>Repayment Schedule</fullName>
+                <default>false</default>
+                <label>Repayment Schedule</label>
+            </value>
+            <value>
+                <fullName>Sanction Letter</fullName>
+                <default>false</default>
+                <label>Sanction Letter</label>
+            </value>
+            <value>
+                <fullName>Statement of Account</fullName>
+                <default>false</default>
+                <label>Statement of Account</label>
+            </value>
+            <value>
+                <fullName>Welcome Letter</fullName>
+                <default>false</default>
+                <label>Welcome Letter</label>
+            </value>
+            <value>
+                <fullName>Example</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Example</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

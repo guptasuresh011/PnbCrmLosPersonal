@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Push_To_Dialer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A function to push data to a dialer system.</description>
+    <externalId>false</externalId>
+    <label>Push To Dialer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

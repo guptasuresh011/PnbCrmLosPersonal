@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Type__c</fullName>
+    <description>Categorizes the type of transaction being conducted.</description>
+    <externalId>false</externalId>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loan Sanction</fullName>
+                <default>false</default>
+                <label>Loan Sanction</label>
+            </value>
+            <value>
+                <fullName>Walk-in</fullName>
+                <default>false</default>
+                <label>Walk-in</label>
+            </value>
+            <value>
+                <fullName>IVR</fullName>
+                <default>false</default>
+                <label>IVR</label>
+            </value>
+            <value>
+                <fullName>Deposit Creation</fullName>
+                <default>false</default>
+                <label>Deposit Creation</label>
+            </value>
+            <value>
+                <fullName>First Disbursement</fullName>
+                <default>false</default>
+                <label>First Disbursement</label>
+            </value>
+            <value>
+                <fullName>Subsequent Disbursement</fullName>
+                <default>false</default>
+                <label>Subsequent Disbursement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

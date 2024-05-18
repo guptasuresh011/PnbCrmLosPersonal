@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Violated_User__c</fullName>
+    <externalId>false</externalId>
+    <formula>If (OR(($User.Id = T1_ViolatedBy__c), 
+($User.Id = T2_ViolatedBy__c),
+($User.Id = T3_ViolatedBy__c), 
+($User.Id = T4_ViolatedBy__c),
+($User.Id = T5_ViolatedBy__c)), &apos;True&apos;, &apos;False&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Violated User</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

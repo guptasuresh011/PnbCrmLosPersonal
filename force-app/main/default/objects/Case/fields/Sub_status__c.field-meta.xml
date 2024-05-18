@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_status__c</fullName>
+    <description>Further classification or status within a main category.</description>
+    <externalId>false</externalId>
+    <label>Sub-status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Approval Pending</fullName>
+                <default>false</default>
+                <label>Approval Pending</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Pending with Customer</fullName>
+                <default>false</default>
+                <label>Pending with Customer</label>
+            </value>
+            <value>
+                <fullName>Pending with Vendor</fullName>
+                <default>false</default>
+                <label>Pending with Vendor</label>
+            </value>
+            <value>
+                <fullName>Calling Done</fullName>
+                <default>false</default>
+                <label>Calling Done</label>
+            </value>
+            <value>
+                <fullName>Recalling Pending</fullName>
+                <default>false</default>
+                <label>Recalling Pending</label>
+            </value>
+            <value>
+                <fullName>Not Contactable</fullName>
+                <default>false</default>
+                <label>Not Contactable</label>
+            </value>
+            <value>
+                <fullName>Pending Internal</fullName>
+                <default>false</default>
+                <label>Pending Internal</label>
+            </value>
+            <value>
+                <fullName>Pending to Field Agent</fullName>
+                <default>false</default>
+                <label>Pending with Field Agent</label>
+            </value>
+            <value>
+                <fullName>Document Received from Builder</fullName>
+                <default>false</default>
+                <label>Document Received from Builder</label>
+            </value>
+            <value>
+                <fullName>Pending with CPC Banking</fullName>
+                <default>false</default>
+                <label>Pending with CPC Banking</label>
+            </value>
+            <value>
+                <fullName>Pending with Under Writer</fullName>
+                <default>false</default>
+                <label>Pending with Under Writer</label>
+            </value>
+            <value>
+                <fullName>Cheque Bounced</fullName>
+                <default>false</default>
+                <label>Cheque Bounced</label>
+            </value>
+            <value>
+                <fullName>Cheque Cleared</fullName>
+                <default>false</default>
+                <label>Cheque Cleared</label>
+            </value>
+            <value>
+                <fullName>Delinking Completed by Under Writer</fullName>
+                <default>false</default>
+                <label>Delinking Completed by Under Writer</label>
+            </value>
+            <value>
+                <fullName>Excess Amount Refunded</fullName>
+                <default>false</default>
+                <label>Excess Amount Refunded</label>
+            </value>
+            <value>
+                <fullName>Document Released by CPC Storage</fullName>
+                <default>false</default>
+                <label>Document Released by CPC Storage</label>
+            </value>
+            <value>
+                <fullName>Property Papers Received at Destination Branch</fullName>
+                <default>false</default>
+                <label>Property Papers Received at Destination Branch</label>
+            </value>
+            <value>
+                <fullName>Collected by customer and acknowledgement sent to CPC</fullName>
+                <default>false</default>
+                <label>Collected by customer and acknowledgement sent to CPC</label>
+            </value>
+            <value>
+                <fullName>Not collected by customer. Paper re dispatched to CPC</fullName>
+                <default>false</default>
+                <label>Not collected by customer. Paper re dispatched to CPC</label>
+            </value>
+            <value>
+                <fullName>Customer Acknowledgement Received by CPC Storage</fullName>
+                <default>false</default>
+                <label>Customer Acknowledgement Received by CPC Storage</label>
+            </value>
+            <value>
+                <fullName>Property Papers Sent back and Received by CPC Storage</fullName>
+                <default>false</default>
+                <label>Property Papers Sent back and Received by CPC Storage</label>
+            </value>
+            <value>
+                <fullName>Pending for Loan Closure</fullName>
+                <default>false</default>
+                <label>Pending for Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Pending for Dispatch</fullName>
+                <default>false</default>
+                <label>Pending for Dispatch</label>
+            </value>
+            <value>
+                <fullName>Pending for Calling</fullName>
+                <default>false</default>
+                <label>Pending for Calling</label>
+            </value>
+            <value>
+                <fullName>Pending with Retention</fullName>
+                <default>false</default>
+                <label>Pending with Retention</label>
+            </value>
+            <value>
+                <fullName>Pending with ICC</fullName>
+                <default>false</default>
+                <label>Pending with ICC</label>
+            </value>
+            <value>
+                <fullName>1st Call Update</fullName>
+                <default>false</default>
+                <label>1st Call Update</label>
+            </value>
+            <value>
+                <fullName>2nd Call Update</fullName>
+                <default>false</default>
+                <label>2nd Call Update</label>
+            </value>
+            <value>
+                <fullName>Cheque Discrepant</fullName>
+                <default>false</default>
+                <label>Cheque Discrepant</label>
+            </value>
+            <value>
+                <fullName>Delinking Rejected by Underwriter</fullName>
+                <default>false</default>
+                <label>Delinking Rejected by Underwriter</label>
+            </value>
+            <value>
+                <fullName>Delinking Approved by Underwriter</fullName>
+                <default>false</default>
+                <label>Delinking Approved by Underwriter</label>
+            </value>
+            <value>
+                <fullName>Query Response Pending</fullName>
+                <default>false</default>
+                <label>Query Response Pending</label>
+            </value>
+            <value>
+                <fullName>Query Responded</fullName>
+                <default>false</default>
+                <label>Query Responded</label>
+            </value>
+            <value>
+                <fullName>Pending with HUB</fullName>
+                <default>false</default>
+                <label>Pending with HUB</label>
+            </value>
+            <value>
+                <fullName>Pending with Branch</fullName>
+                <default>false</default>
+                <label>Pending with Branch</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Approval Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Rejected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Calling Done</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Recalling Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Not Contactable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending to Field Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Document Received from Builder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with CPC Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with Under Writer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Cheque Bounced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Cheque Cleared</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Delinking Completed by Under Writer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Excess Amount Refunded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Document Released by CPC Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Property Papers Received at Destination Branch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Collected by customer and acknowledgement sent to CPC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Not collected by customer. Paper re dispatched to CPC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Customer Acknowledgement Received by CPC Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Property Papers Sent back and Received by CPC Storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending for Loan Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending for Dispatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending for Calling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with Retention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>1st Call Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>2nd Call Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Cheque Discrepant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Delinking Rejected by Underwriter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escalated</controllingFieldValue>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Delinking Approved by Underwriter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Query Response Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Query Responded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with HUB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WIP</controllingFieldValue>
+            <valueName>Pending with Branch</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

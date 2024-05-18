@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Category__c</fullName>
+    <description>Category classification for a support case.</description>
+    <externalId>false</externalId>
+    <label>Case Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>15G/H Related</fullName>
+                <default>false</default>
+                <label>15G/H Related</label>
+            </value>
+            <value>
+                <fullName>Accounting Queries</fullName>
+                <default>false</default>
+                <label>Accounting Queries</label>
+            </value>
+            <value>
+                <fullName>Accounting Query</fullName>
+                <default>false</default>
+                <label>Accounting Query</label>
+            </value>
+            <value>
+                <fullName>AML SR</fullName>
+                <default>false</default>
+                <label>AML Alerts</label>
+            </value>
+            <value>
+                <fullName>Behavioural Issues</fullName>
+                <default>false</default>
+                <label>Behavioural Issues</label>
+            </value>
+            <value>
+                <fullName>Bounce/Overdue Charges Related</fullName>
+                <default>false</default>
+                <label>Bounce/Overdue Charges Related</label>
+            </value>
+            <value>
+                <fullName>Branch Details</fullName>
+                <default>false</default>
+                <label>Branch Details</label>
+            </value>
+            <value>
+                <fullName>Broker Activation</fullName>
+                <default>false</default>
+                <label>Broker Activation</label>
+            </value>
+            <value>
+                <fullName>Builder construction Related</fullName>
+                <default>false</default>
+                <label>Builder construction Related</label>
+            </value>
+            <value>
+                <fullName>Builder Related</fullName>
+                <default>false</default>
+                <label>Builder Related</label>
+            </value>
+            <value>
+                <fullName>Callback</fullName>
+                <default>false</default>
+                <label>Callback</label>
+            </value>
+            <value>
+                <fullName>Campaign Calling_Plot Loans</fullName>
+                <default>false</default>
+                <label>Campaign Calling_Plot Loans</label>
+            </value>
+            <value>
+                <fullName>Centralized Refunds</fullName>
+                <default>false</default>
+                <label>Centralized Refunds</label>
+            </value>
+            <value>
+                <fullName>CERSAI Charge Related</fullName>
+                <default>false</default>
+                <label>CERSAI Charge Related</label>
+            </value>
+            <value>
+                <fullName>CF-Delay In Disbursement</fullName>
+                <default>false</default>
+                <label>CF-Delay In Disbursement</label>
+            </value>
+            <value>
+                <fullName>CF-Delay In Providing CIR</fullName>
+                <default>false</default>
+                <label>CF-Delay In Providing CIR</label>
+            </value>
+            <value>
+                <fullName>CF-Delay in providing SOA/RPS/IT Certificate</fullName>
+                <default>false</default>
+                <label>CF-Delay in providing SOA/RPS/IT Certificate</label>
+            </value>
+            <value>
+                <fullName>CF-Incorrect data in SOA/RPS/IT Certificate</fullName>
+                <default>false</default>
+                <label>CF-Incorrect data in SOA/RPS/IT Certificate</label>
+            </value>
+            <value>
+                <fullName>CF-Loan Application Status</fullName>
+                <default>false</default>
+                <label>CF-Loan Application Status</label>
+            </value>
+            <value>
+                <fullName>CF-Loan downsize Related</fullName>
+                <default>false</default>
+                <label>CF-Loan downsize Related</label>
+            </value>
+            <value>
+                <fullName>CF-Miscellaneous</fullName>
+                <default>false</default>
+                <label>CF-Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>CF - Monitoring</fullName>
+                <default>false</default>
+                <label>CF - Monitoring</label>
+            </value>
+            <value>
+                <fullName>CF - Moratorium</fullName>
+                <default>false</default>
+                <label>CF - Moratorium</label>
+            </value>
+            <value>
+                <fullName>CF-Moratorium</fullName>
+                <default>false</default>
+                <label>CF-Moratorium</label>
+            </value>
+            <value>
+                <fullName>CF-Part Payment Related</fullName>
+                <default>false</default>
+                <label>CF-Part Payment Related</label>
+            </value>
+            <value>
+                <fullName>CF-Pre Closure Related</fullName>
+                <default>false</default>
+                <label>CF-Pre Closure Related</label>
+            </value>
+            <value>
+                <fullName>CF-Property Papers Related</fullName>
+                <default>false</default>
+                <label>CF-Property Papers Related</label>
+            </value>
+            <value>
+                <fullName>CF-Property Swap Related</fullName>
+                <default>false</default>
+                <label>CF-Property Swap Related</label>
+            </value>
+            <value>
+                <fullName>CF-ROI Conversion/Rate repricing</fullName>
+                <default>false</default>
+                <label>CF-ROI Conversion/Rate repricing</label>
+            </value>
+            <value>
+                <fullName>CF-TDS Related</fullName>
+                <default>false</default>
+                <label>CF-TDS Related</label>
+            </value>
+            <value>
+                <fullName>CF-Waiver of interest on interest</fullName>
+                <default>false</default>
+                <label>CF-Waiver of interest on interest</label>
+            </value>
+            <value>
+                <fullName>Cibil Auto Top up</fullName>
+                <default>false</default>
+                <label>Cibil Auto Top up</label>
+            </value>
+            <value>
+                <fullName>CIBIL Query</fullName>
+                <default>false</default>
+                <label>CIBIL Query</label>
+            </value>
+            <value>
+                <fullName>Cibil Related</fullName>
+                <default>false</default>
+                <label>Cibil Related</label>
+            </value>
+            <value>
+                <fullName>CIBIL Trigger Query</fullName>
+                <default>false</default>
+                <label>CIBIL Trigger Query</label>
+            </value>
+            <value>
+                <fullName>Closure of loan</fullName>
+                <default>false</default>
+                <label>Closure of loan</label>
+            </value>
+            <value>
+                <fullName>Collateral/Security Related</fullName>
+                <default>false</default>
+                <label>Collateral/Security Related</label>
+            </value>
+            <value>
+                <fullName>Collateral Related</fullName>
+                <default>false</default>
+                <label>Collateral Related</label>
+            </value>
+            <value>
+                <fullName>Complaint Flow</fullName>
+                <default>false</default>
+                <label>Complaint Flow</label>
+            </value>
+            <value>
+                <fullName>Complaint on Behavior of Credit Vendor CR</fullName>
+                <default>false</default>
+                <label>Complaint on Behavior of Credit Vendor CR</label>
+            </value>
+            <value>
+                <fullName>COVID Relief</fullName>
+                <default>false</default>
+                <label>COVID Relief</label>
+            </value>
+            <value>
+                <fullName>Death case</fullName>
+                <default>false</default>
+                <label>Death case</label>
+            </value>
+            <value>
+                <fullName>Delay In Closure Of Loan</fullName>
+                <default>false</default>
+                <label>Delay In Closure Of Loan</label>
+            </value>
+            <value>
+                <fullName>Delay In Disbursement</fullName>
+                <default>false</default>
+                <label>Delay In Disbursement</label>
+            </value>
+            <value>
+                <fullName>Delay In Disbursement Cheque Clearance</fullName>
+                <default>false</default>
+                <label>Delay In Disbursement Cheque Clearance</label>
+            </value>
+            <value>
+                <fullName>Delay In Handover Of Disbursement</fullName>
+                <default>false</default>
+                <label>Delay In Handover Of Disbursement</label>
+            </value>
+            <value>
+                <fullName>Delay in Loan Sanction/Processing</fullName>
+                <default>false</default>
+                <label>Delay in Loan Sanction/Processing</label>
+            </value>
+            <value>
+                <fullName>Delay in providing SOA/RPS/IT Certificate</fullName>
+                <default>false</default>
+                <label>Delay in providing SOA/RPS/IT Certificate</label>
+            </value>
+            <value>
+                <fullName>Delay In Release Of Property Papers</fullName>
+                <default>false</default>
+                <label>Delay In Release Of Property Papers</label>
+            </value>
+            <value>
+                <fullName>Delay In Sanction Of Loan</fullName>
+                <default>false</default>
+                <label>Delay In Sanction Of Loan</label>
+            </value>
+            <value>
+                <fullName>Delinquent/Recovery Case</fullName>
+                <default>false</default>
+                <label>Delinquent/Recovery Case</label>
+            </value>
+            <value>
+                <fullName>Delinquent / Recovery case</fullName>
+                <default>false</default>
+                <label>Delinquent / Recovery case</label>
+            </value>
+            <value>
+                <fullName>Deliverable Related</fullName>
+                <default>false</default>
+                <label>Deliverable Related</label>
+            </value>
+            <value>
+                <fullName>Deliverable Related Query</fullName>
+                <default>false</default>
+                <label>Deliverable Related Query</label>
+            </value>
+            <value>
+                <fullName>Deliverables Related</fullName>
+                <default>false</default>
+                <label>Deliverables Related</label>
+            </value>
+            <value>
+                <fullName>Demographic Changes</fullName>
+                <default>false</default>
+                <label>Demographic Changes</label>
+            </value>
+            <value>
+                <fullName>Demographic Details</fullName>
+                <default>false</default>
+                <label>Demographic Details</label>
+            </value>
+            <value>
+                <fullName>Demographic Query</fullName>
+                <default>false</default>
+                <label>Demographic Query</label>
+            </value>
+            <value>
+                <fullName>Demographic Related</fullName>
+                <default>false</default>
+                <label>Demographic Related</label>
+            </value>
+            <value>
+                <fullName>Deposit Application Status</fullName>
+                <default>false</default>
+                <label>Deposit Application Status</label>
+            </value>
+            <value>
+                <fullName>Disbrusment related(matter related to amount/data etc)</fullName>
+                <default>false</default>
+                <label>Disbrusment related(matter related to amount/data etc)</label>
+            </value>
+            <value>
+                <fullName>Disbursement Cancellation</fullName>
+                <default>false</default>
+                <label>Disbursement Cancellation</label>
+            </value>
+            <value>
+                <fullName>Disbursement Cancellation And Refund Of EMI</fullName>
+                <default>false</default>
+                <label>Disbursement Cancellation And Refund Of EMI</label>
+            </value>
+            <value>
+                <fullName>Disbursement Related</fullName>
+                <default>false</default>
+                <label>Disbursement Related</label>
+            </value>
+            <value>
+                <fullName>Disbursement Related Query</fullName>
+                <default>false</default>
+                <label>Disbursement Related Query</label>
+            </value>
+            <value>
+                <fullName>Disbursement Request</fullName>
+                <default>false</default>
+                <label>Disbursement Request</label>
+            </value>
+            <value>
+                <fullName>Disbursement RTGS related</fullName>
+                <default>false</default>
+                <label>Disbursement RTGS related</label>
+            </value>
+            <value>
+                <fullName>Duplicate Query</fullName>
+                <default>false</default>
+                <label>Duplicate Query</label>
+            </value>
+            <value>
+                <fullName>ECS Registration</fullName>
+                <default>false</default>
+                <label>ECS Registration</label>
+            </value>
+            <value>
+                <fullName>ECS Registration Related</fullName>
+                <default>false</default>
+                <label>ECS Registration Related</label>
+            </value>
+            <value>
+                <fullName>ELCG scheme</fullName>
+                <default>false</default>
+                <label>ELCG scheme</label>
+            </value>
+            <value>
+                <fullName>EMI/PEMI</fullName>
+                <default>false</default>
+                <label>EMI/PEMI</label>
+            </value>
+            <value>
+                <fullName>EMI/ PEMI related</fullName>
+                <default>false</default>
+                <label>EMI/ PEMI related</label>
+            </value>
+            <value>
+                <fullName>EMI Not Banked</fullName>
+                <default>false</default>
+                <label>EMI Not Banked</label>
+            </value>
+            <value>
+                <fullName>EMI Related</fullName>
+                <default>false</default>
+                <label>EMI Related</label>
+            </value>
+            <value>
+                <fullName>Excess EMI Debited</fullName>
+                <default>false</default>
+                <label>Excess EMI Debited</label>
+            </value>
+            <value>
+                <fullName>FD Broker Engagement Activity</fullName>
+                <default>false</default>
+                <label>FD Broker Engagement Activity</label>
+            </value>
+            <value>
+                <fullName>FD Maturity Related</fullName>
+                <default>false</default>
+                <label>FD Maturity Related</label>
+            </value>
+            <value>
+                <fullName>FD Receipt</fullName>
+                <default>false</default>
+                <label>FD Receipt</label>
+            </value>
+            <value>
+                <fullName>FD ReceiptForm 15 G/H</fullName>
+                <default>false</default>
+                <label>FD Receipt Form 15 G/H</label>
+            </value>
+            <value>
+                <fullName>FD Receipt Related</fullName>
+                <default>false</default>
+                <label>FD Receipt Related</label>
+            </value>
+            <value>
+                <fullName>FD related</fullName>
+                <default>false</default>
+                <label>FD related</label>
+            </value>
+            <value>
+                <fullName>FD renewal related</fullName>
+                <default>false</default>
+                <label>FD renewal related</label>
+            </value>
+            <value>
+                <fullName>Forgot User ID</fullName>
+                <default>false</default>
+                <label>Forgot User ID</label>
+            </value>
+            <value>
+                <fullName>Incorrect data in SOA/RPS/IT Certificate</fullName>
+                <default>false</default>
+                <label>Incorrect data in SOA/RPS/IT Certificate</label>
+            </value>
+            <value>
+                <fullName>Incorrect SMS received</fullName>
+                <default>false</default>
+                <label>Incorrect SMS received</label>
+            </value>
+            <value>
+                <fullName>Increase/Decrease In EMI</fullName>
+                <default>false</default>
+                <label>Increase/Decrease In EMI</label>
+            </value>
+            <value>
+                <fullName>Insurance Cancellation Related</fullName>
+                <default>false</default>
+                <label>Insurance Cancellation Related</label>
+            </value>
+            <value>
+                <fullName>Insurance Policy Related</fullName>
+                <default>false</default>
+                <label>Insurance Policy Related</label>
+            </value>
+            <value>
+                <fullName>Insurance Related</fullName>
+                <default>false</default>
+                <label>Insurance Related</label>
+            </value>
+            <value>
+                <fullName>Interest Warrant Query</fullName>
+                <default>false</default>
+                <label>Interest Warrant Query</label>
+            </value>
+            <value>
+                <fullName>Linking of loan accounts.</fullName>
+                <default>false</default>
+                <label>Linking of loan accounts.</label>
+            </value>
+            <value>
+                <fullName>Loan Application Status</fullName>
+                <default>false</default>
+                <label>Loan Application Status</label>
+            </value>
+            <value>
+                <fullName>Loan Application Status Query</fullName>
+                <default>false</default>
+                <label>Loan Application Status Query</label>
+            </value>
+            <value>
+                <fullName>Loan Cancellation Related</fullName>
+                <default>false</default>
+                <label>Loan Cancellation Related</label>
+            </value>
+            <value>
+                <fullName>Loan Closure</fullName>
+                <default>false</default>
+                <label>Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Loan Closure Query</fullName>
+                <default>false</default>
+                <label>Loan Closure Query</label>
+            </value>
+            <value>
+                <fullName>Loan downsize Related</fullName>
+                <default>false</default>
+                <label>Loan downsize Related</label>
+            </value>
+            <value>
+                <fullName>Loan Instalment</fullName>
+                <default>false</default>
+                <label>Loan Instalment</label>
+            </value>
+            <value>
+                <fullName>Loan processing Related</fullName>
+                <default>false</default>
+                <label>Loan processing Related</label>
+            </value>
+            <value>
+                <fullName>LOD Incorrect</fullName>
+                <default>false</default>
+                <label>LOD Incorrect</label>
+            </value>
+            <value>
+                <fullName>Loss of FDR</fullName>
+                <default>false</default>
+                <label>Loss of FDR</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>MODT Registration</fullName>
+                <default>false</default>
+                <label>MODT Registration</label>
+            </value>
+            <value>
+                <fullName>MODT Related</fullName>
+                <default>false</default>
+                <label>MODT Related</label>
+            </value>
+            <value>
+                <fullName>Moratorium</fullName>
+                <default>false</default>
+                <label>Moratorium</label>
+            </value>
+            <value>
+                <fullName>Multiple cheque/Incorrect EMI Presentation</fullName>
+                <default>false</default>
+                <label>Multiple cheque/Incorrect EMI Presentation</label>
+            </value>
+            <value>
+                <fullName>Multiple EMI Presentations</fullName>
+                <default>false</default>
+                <label>Multiple EMI Presentations</label>
+            </value>
+            <value>
+                <fullName>New Loan</fullName>
+                <default>false</default>
+                <label>New Loan</label>
+            </value>
+            <value>
+                <fullName>NO LAN</fullName>
+                <default>false</default>
+                <label>NO LAN</label>
+            </value>
+            <value>
+                <fullName>Not Contactable</fullName>
+                <default>false</default>
+                <label>Not Contactable</label>
+            </value>
+            <value>
+                <fullName>NPS</fullName>
+                <default>false</default>
+                <label>NPS</label>
+            </value>
+            <value>
+                <fullName>Online Payments</fullName>
+                <default>false</default>
+                <label>Online Payments</label>
+            </value>
+            <value>
+                <fullName>Part Payment Related</fullName>
+                <default>false</default>
+                <label>Part Payment Related</label>
+            </value>
+            <value>
+                <fullName>PDD</fullName>
+                <default>false</default>
+                <label>PDD</label>
+            </value>
+            <value>
+                <fullName>PDD Related</fullName>
+                <default>false</default>
+                <label>PDD Related</label>
+            </value>
+            <value>
+                <fullName>PDD Updation</fullName>
+                <default>false</default>
+                <label>PDD Updation</label>
+            </value>
+            <value>
+                <fullName>PEMI/EMI</fullName>
+                <default>false</default>
+                <label>PEMI/EMI</label>
+            </value>
+            <value>
+                <fullName>PEMI/EMI related</fullName>
+                <default>false</default>
+                <label>PEMI/EMI related</label>
+            </value>
+            <value>
+                <fullName>PMAY Application</fullName>
+                <default>false</default>
+                <label>PMAY Application</label>
+            </value>
+            <value>
+                <fullName>PMAY Status</fullName>
+                <default>false</default>
+                <label>PMAY Status</label>
+            </value>
+            <value>
+                <fullName>Pre Closure Charges Related</fullName>
+                <default>false</default>
+                <label>Pre Closure Charges Related</label>
+            </value>
+            <value>
+                <fullName>Pre Closure Related</fullName>
+                <default>false</default>
+                <label>Pre Closure Related</label>
+            </value>
+            <value>
+                <fullName>Pre Emptive Call</fullName>
+                <default>false</default>
+                <label>Pre Emptive Call</label>
+            </value>
+            <value>
+                <fullName>Property Papers Related</fullName>
+                <default>false</default>
+                <label>Property Papers Related</label>
+            </value>
+            <value>
+                <fullName>Property Swap Related</fullName>
+                <default>false</default>
+                <label>Property Swap Related</label>
+            </value>
+            <value>
+                <fullName>Query Not Resolved</fullName>
+                <default>false</default>
+                <label>Query Not Resolved</label>
+            </value>
+            <value>
+                <fullName>Query on disbursed amount</fullName>
+                <default>false</default>
+                <label>Query on disbursed amount</label>
+            </value>
+            <value>
+                <fullName>Rate of Interest Query</fullName>
+                <default>false</default>
+                <label>Rate of Interest Query</label>
+            </value>
+            <value>
+                <fullName>Receipt book related</fullName>
+                <default>false</default>
+                <label>Receipt book related</label>
+            </value>
+            <value>
+                <fullName>Receipt book related( Internal SR)</fullName>
+                <default>false</default>
+                <label>Receipt book related( Internal SR)</label>
+            </value>
+            <value>
+                <fullName>Recovery</fullName>
+                <default>false</default>
+                <label>Recovery</label>
+            </value>
+            <value>
+                <fullName>Recovery related</fullName>
+                <default>false</default>
+                <label>Recovery related</label>
+            </value>
+            <value>
+                <fullName>Recovery Related( Internal SR)</fullName>
+                <default>false</default>
+                <label>Recovery Related( Internal SR)</label>
+            </value>
+            <value>
+                <fullName>Refund of fees</fullName>
+                <default>false</default>
+                <label>Refund of fees</label>
+            </value>
+            <value>
+                <fullName>Refund of Processing fee</fullName>
+                <default>false</default>
+                <label>Refund of Processing fee</label>
+            </value>
+            <value>
+                <fullName>Refund of processing Fees</fullName>
+                <default>false</default>
+                <label>Refund of processing Fees</label>
+            </value>
+            <value>
+                <fullName>Refund on fees</fullName>
+                <default>false</default>
+                <label>Refund on fees</label>
+            </value>
+            <value>
+                <fullName>RE-KYC</fullName>
+                <default>false</default>
+                <label>RE-KYC</label>
+            </value>
+            <value>
+                <fullName>Renewal of FD</fullName>
+                <default>false</default>
+                <label>Renewal of FD</label>
+            </value>
+            <value>
+                <fullName>Repayment Mode</fullName>
+                <default>false</default>
+                <label>Repayment Mode</label>
+            </value>
+            <value>
+                <fullName>Repayment Mode Related</fullName>
+                <default>false</default>
+                <label>Repayment Mode Related</label>
+            </value>
+            <value>
+                <fullName>Repayment Related Query – Branch</fullName>
+                <default>false</default>
+                <label>Repayment Related Query – Branch</label>
+            </value>
+            <value>
+                <fullName>Restructuring</fullName>
+                <default>false</default>
+                <label>Restructuring</label>
+            </value>
+            <value>
+                <fullName>Retention Query</fullName>
+                <default>false</default>
+                <label>Retention Query</label>
+            </value>
+            <value>
+                <fullName>ROI Conversion</fullName>
+                <default>false</default>
+                <label>ROI Conversion</label>
+            </value>
+            <value>
+                <fullName>ROI Conversion/ Rate repricing</fullName>
+                <default>false</default>
+                <label>ROI Conversion/ Rate repricing</label>
+            </value>
+            <value>
+                <fullName>ROI Related</fullName>
+                <default>false</default>
+                <label>ROI Related</label>
+            </value>
+            <value>
+                <fullName>ROI Revision-RWR Case</fullName>
+                <default>false</default>
+                <label>ROI Revision-RWR Case</label>
+            </value>
+            <value>
+                <fullName>Sanction Condition Related</fullName>
+                <default>false</default>
+                <label>Sanction Condition Related</label>
+            </value>
+            <value>
+                <fullName>Sanction Conditions</fullName>
+                <default>false</default>
+                <label>Sanction Conditions</label>
+            </value>
+            <value>
+                <fullName>Sanction Letter</fullName>
+                <default>false</default>
+                <label>Sanction Letter</label>
+            </value>
+            <value>
+                <fullName>Scan Copy of Document Query</fullName>
+                <default>false</default>
+                <label>Scan Copy of Document Query</label>
+            </value>
+            <value>
+                <fullName>Scan Copy of Documents</fullName>
+                <default>false</default>
+                <label>Scan Copy of Documents</label>
+            </value>
+            <value>
+                <fullName>Share Certificate</fullName>
+                <default>false</default>
+                <label>Share Certificate</label>
+            </value>
+            <value>
+                <fullName>SR Creation from Customer Portal</fullName>
+                <default>false</default>
+                <label>SR Creation from Customer Portal</label>
+            </value>
+            <value>
+                <fullName>Subsequent Disbursement</fullName>
+                <default>false</default>
+                <label>Subsequent Disbursement</label>
+            </value>
+            <value>
+                <fullName>Subvention Related</fullName>
+                <default>false</default>
+                <label>Subvention Related</label>
+            </value>
+            <value>
+                <fullName>Swap of Repayment Mode</fullName>
+                <default>false</default>
+                <label>Swap of Repayment Mode</label>
+            </value>
+            <value>
+                <fullName>TDS Related</fullName>
+                <default>false</default>
+                <label>TDS Related</label>
+            </value>
+            <value>
+                <fullName>Thank You</fullName>
+                <default>false</default>
+                <label>Thank You</label>
+            </value>
+            <value>
+                <fullName>Tracking of QR Code Payment</fullName>
+                <default>false</default>
+                <label>Tracking of QR Code Payment</label>
+            </value>
+            <value>
+                <fullName>VQ CallBackRequest</fullName>
+                <default>false</default>
+                <label>VQ CallBackRequest</label>
+            </value>
+            <value>
+                <fullName>Waiver of charges</fullName>
+                <default>false</default>
+                <label>Waiver of charges</label>
+            </value>
+            <value>
+                <fullName>Waiver Of Interest On Interest</fullName>
+                <default>false</default>
+                <label>Waiver Of Interest On Interest</label>
+            </value>
+            <value>
+                <fullName>Waiver Of Overdue/Bounce Charges</fullName>
+                <default>false</default>
+                <label>Waiver Of Overdue/Bounce Charges</label>
+            </value>
+            <value>
+                <fullName>Welcome Letter</fullName>
+                <default>false</default>
+                <label>Welcome Letter</label>
+            </value>
+            <value>
+                <fullName>Wholesale Banking</fullName>
+                <default>false</default>
+                <label>Wholesale Banking</label>
+            </value>
+            <value>
+                <fullName>Withdrawal of FD</fullName>
+                <default>false</default>
+                <label>Withdrawal of FD</label>
+            </value>
+            <value>
+                <fullName>CACB</fullName>
+                <default>false</default>
+                <label>CACB</label>
+            </value>
+            <value>
+                <fullName>Porcessing fees bounced</fullName>
+                <default>false</default>
+                <label>Porcessing fees bounced</label>
+            </value>
+            <value>
+                <fullName>Query on Login fees</fullName>
+                <default>false</default>
+                <label>Query on Login fees</label>
+            </value>
+            <value>
+                <fullName>Trouble logging in</fullName>
+                <default>false</default>
+                <label>Trouble logging in</label>
+            </value>
+            <value>
+                <fullName>Customer Portal</fullName>
+                <default>false</default>
+                <label>Customer Portal</label>
+            </value>
+            <value>
+                <fullName>PMAY</fullName>
+                <default>false</default>
+                <label>PMAY</label>
+            </value>
+            <value>
+                <fullName>Part Prepayment</fullName>
+                <default>false</default>
+                <label>Part Prepayment</label>
+            </value>
+            <value>
+                <fullName>Repayment Mode Query</fullName>
+                <default>false</default>
+                <label>Repayment Mode Query</label>
+            </value>
+            <value>
+                <fullName>Disbursement Query</fullName>
+                <default>false</default>
+                <label>Disbursement Query</label>
+            </value>
+            <value>
+                <fullName>Fixed Deposit Related</fullName>
+                <default>false</default>
+                <label>Fixed Deposit Related</label>
+            </value>
+            <value>
+                <fullName>ROI Conversion - Internal( Through Predictive Dialling)</fullName>
+                <default>false</default>
+                <label>ROI Conversion - Internal( Through Predictive Dialling)</label>
+            </value>
+            <value>
+                <fullName>Auto Top Up</fullName>
+                <default>false</default>
+                <label>Auto Top Up</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>SUD Calling</fullName>
+                <default>false</default>
+                <label>SUD Calling</label>
+            </value>
+            <value>
+                <fullName>Web Portal Leads</fullName>
+                <default>false</default>
+                <label>Web Portal Leads</label>
+            </value>
+            <value>
+                <fullName>CF- Collateral/Security Related</fullName>
+                <default>false</default>
+                <label>CF- Collateral/Security Related</label>
+            </value>
+            <value>
+                <fullName>Welcome Call</fullName>
+                <default>false</default>
+                <label>Welcome Call</label>
+            </value>
+            <value>
+                <fullName>CF- Loan Closure</fullName>
+                <default>false</default>
+                <label>CF- Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Campaign Calling</fullName>
+                <default>false</default>
+                <label>Campaign calling</label>
+            </value>
+            <value>
+                <fullName>Calling campaign</fullName>
+                <default>false</default>
+                <label>Calling campaign</label>
+            </value>
+            <value>
+                <fullName>Auto Top Up SR</fullName>
+                <default>false</default>
+                <label>Auto Top Up SR</label>
+            </value>
+            <value>
+                <fullName>CF- Scan Copy of Documents</fullName>
+                <default>false</default>
+                <label>CF- Scan Copy of Documents</label>
+            </value>
+            <value>
+                <fullName>Insurance Claim</fullName>
+                <default>false</default>
+                <label>Insurance Claim</label>
+            </value>
+            <value>
+                <fullName>ICC-Centralized Refund</fullName>
+                <default>false</default>
+                <label>ICC-Centralized Refund</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

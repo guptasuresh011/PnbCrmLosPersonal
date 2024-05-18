@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Rejection_Reason__c</fullName>
+    <description>The reason for rejecting a payment.</description>
+    <externalId>false</externalId>
+    <label>Payment Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Payment_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bank Account closed</fullName>
+                <default>false</default>
+                <label>Bank Account closed</label>
+            </value>
+            <value>
+                <fullName>IFSC Code Mismatch</fullName>
+                <default>false</default>
+                <label>IFSC Code Mismatch</label>
+            </value>
+            <value>
+                <fullName>Cheque Copy Require</fullName>
+                <default>false</default>
+                <label>Cheque Copy Require</label>
+            </value>
+            <value>
+                <fullName>Credit to NRI Account</fullName>
+                <default>false</default>
+                <label>Credit to NRI Account</label>
+            </value>
+            <value>
+                <fullName>Invalid A/c status</fullName>
+                <default>false</default>
+                <label>Invalid A/c status</label>
+            </value>
+            <value>
+                <fullName>Account Closed</fullName>
+                <default>false</default>
+                <label>Account Closed</label>
+            </value>
+            <value>
+                <fullName>Account does not exist</fullName>
+                <default>false</default>
+                <label>Account does not exist</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Bank Account closed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>IFSC Code Mismatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Cheque Copy Require</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Credit to NRI Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Invalid A/c status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Account Closed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Account does not exist</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

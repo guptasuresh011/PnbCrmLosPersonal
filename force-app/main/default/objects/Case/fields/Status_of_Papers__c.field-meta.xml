@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_of_Papers__c</fullName>
+    <description>Indicates the status of documentation or paperwork associated with a case.</description>
+    <externalId>false</externalId>
+    <label>Status of Papers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Property Papers Received at Destination Branch</fullName>
+                <default>false</default>
+                <label>Property Papers Received at Destination Branch</label>
+            </value>
+            <value>
+                <fullName>Collected by customer and acknowledgement sent to CPC</fullName>
+                <default>false</default>
+                <label>Collected by customer and acknowledgement sent to CPC</label>
+            </value>
+            <value>
+                <fullName>Not collected by customer. Paper re dispatched to CPC</fullName>
+                <default>false</default>
+                <label>Not collected by customer. Paper re dispatched to CPC</label>
+            </value>
+            <value>
+                <fullName>Customer Acknowledgement Received by CPC Storage</fullName>
+                <default>false</default>
+                <label>Customer Acknowledgement Received by CPC Storage</label>
+            </value>
+            <value>
+                <fullName>Property Papers Sent back and Received by CPC Storage</fullName>
+                <default>false</default>
+                <label>Property Papers Sent back by Branch and Received by CPC Storage</label>
+            </value>
+            <value>
+                <fullName>Dispatch from CPC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dispatched from CPC</label>
+            </value>
+            <value>
+                <fullName>Received at branch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Received at branch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LMS_Due_Date_Changed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Shows if the due date was changed in the Loan Management System.</description>
+    <externalId>false</externalId>
+    <label>LMS Due Date Changed?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

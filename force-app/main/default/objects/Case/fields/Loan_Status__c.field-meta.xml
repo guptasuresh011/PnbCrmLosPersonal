@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loan_Status__c</fullName>
+    <description>Indicates whether a loan has been successfully closed or not.</description>
+    <externalId>false</externalId>
+    <label>Loan Closed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Closure in Progress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closure in Progress</label>
+            </value>
+            <value>
+                <fullName>Current Asset</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Current Asset</label>
+            </value>
+            <value>
+                <fullName>Foreclosed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foreclosed</label>
+            </value>
+            <value>
+                <fullName>Loan Cancellation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Loan Cancellation</label>
+            </value>
+            <value>
+                <fullName>Matured Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Matured Closed</label>
+            </value>
+            <value>
+                <fullName>Matured Loan Closure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Matured Loan Closure</label>
+            </value>
+            <value>
+                <fullName>Non-Disbursed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Disbursed</label>
+            </value>
+            <value>
+                <fullName>OTS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OTS</label>
+            </value>
+            <value>
+                <fullName>OTS Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OTS Closed</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Pre-closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pre-closed</label>
+            </value>
+            <value>
+                <fullName>Write Off</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Write Off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
